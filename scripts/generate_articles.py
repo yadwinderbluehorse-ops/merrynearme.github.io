@@ -64,7 +64,7 @@ BLOCKED_TOPIC_WORDS = {
 }
 
 # Reject obvious non-news listings.
-BLOCKED_HEADLINE_WORDS = {
+
     
 BLOCKED_HEADLINE_WORDS = {
     "obituary",
