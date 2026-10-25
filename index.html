@@ -6,15 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#173d32">
 
-  <title>BrowseBloom | Gifts, Shopping, Travel & Lifestyle Guides</title>
-  <meta name="description" content="Discover thoughtful gift ideas, shopping guides, seasonal activities, travel inspiration and practical lifestyle tips across Canada and beyond.">
-
+  <title>BrowseBloom | Gift Ideas, Shopping Guides & Lifestyle Inspiration</title>
+  <meta name="description" content="Explore gift ideas, smart shopping guides, home and lifestyle inspiration, tech recommendations, travel tips and seasonal ideas at BrowseBloom.">
+  <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://browsebloom.online/">
-  <meta name="robots" content="index,follow">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="BrowseBloom | Discover More, Choose Better">
-  <meta property="og:description" content="Explore gifts, shopping ideas, travel experiences, seasonal celebrations and everyday inspiration.">
+  <meta property="og:site_name" content="BrowseBloom">
+  <meta property="og:title" content="BrowseBloom | Discover More. Choose Better.">
+  <meta property="og:description" content="Helpful gift guides, shopping ideas and lifestyle inspiration for every season.">
   <meta property="og:url" content="https://browsebloom.online/">
 
   <script type="application/ld+json">
@@ -23,7 +23,7 @@
     "@type": "WebSite",
     "name": "BrowseBloom",
     "url": "https://browsebloom.online/",
-    "description": "Gift ideas, shopping guides, seasonal activities, travel and lifestyle inspiration.",
+    "description": "Gift ideas, shopping guides, home, technology, travel and lifestyle inspiration.",
     "inLanguage": "en"
   }
   </script>
@@ -31,12 +31,12 @@
   <style>
     :root {
       --green: #173d32;
-      --green2: #285f4e;
-      --gold: #d4a857;
+      --green-light: #27624d;
+      --gold: #e4b65b;
       --cream: #faf8f3;
       --white: #ffffff;
-      --ink: #20352d;
-      --muted: #66756c;
+      --text: #20352d;
+      --muted: #69776f;
       --border: #e5e9e3;
     }
 
@@ -46,38 +46,28 @@
 
     body {
       margin: 0;
-      font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
-      color: var(--ink);
       background: var(--cream);
+      color: var(--text);
+      font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
       line-height: 1.65;
     }
 
     a { color: inherit; text-decoration: none; }
-    a:hover { color: var(--green2); }
+    a:hover { color: var(--green-light); }
 
     .container {
-      max-width: 1160px;
+      max-width: 1180px;
       margin: auto;
       padding: 0 22px;
     }
 
-    .skip {
-      position: absolute;
-      top: -100px;
-      background: white;
-      padding: 12px;
-      z-index: 100;
-    }
-
-    .skip:focus { top: 0; }
-
-    .announcement {
+    .topbar {
       background: var(--green);
       color: white;
       text-align: center;
       font-size: 12px;
       letter-spacing: 1.5px;
-      padding: 10px;
+      padding: 9px;
     }
 
     header {
@@ -85,138 +75,124 @@
       border-bottom: 1px solid var(--border);
       position: sticky;
       top: 0;
-      z-index: 10;
+      z-index: 20;
     }
 
-    .nav {
-      min-height: 76px;
+    .navbar {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 24px;
+      gap: 25px;
+      min-height: 78px;
     }
 
     .logo {
-      font-size: 27px;
+      font-size: 29px;
       font-weight: 850;
+      letter-spacing: -1.2px;
       color: var(--green);
-      letter-spacing: -1px;
-      white-space: nowrap;
     }
 
-    .logo span { color: var(--gold); }
+    .logo span { color: #b18a38; }
 
     nav {
       display: flex;
+      gap: 22px;
       flex-wrap: wrap;
-      gap: 20px;
       font-size: 14px;
-      font-weight: 600;
+      font-weight: 650;
     }
 
     .hero {
-      background: linear-gradient(125deg, #173d32, #36715c);
+      background:
+        radial-gradient(circle at 90% 15%, #477c63 0, transparent 40%),
+        linear-gradient(130deg, #102e26, #275d49);
       color: white;
-      padding: 95px 20px;
       text-align: center;
+      padding: 105px 20px;
     }
 
     .eyebrow {
       color: var(--gold);
-      text-transform: uppercase;
-      letter-spacing: 2px;
       font-size: 12px;
       font-weight: 800;
+      letter-spacing: 2px;
+      text-transform: uppercase;
     }
 
     .hero h1 {
-      font-size: clamp(35px, 6vw, 64px);
-      line-height: 1.13;
+      font-size: clamp(37px, 6vw, 68px);
+      letter-spacing: -2px;
+      line-height: 1.12;
       max-width: 850px;
       margin: 20px auto;
-      letter-spacing: -2px;
     }
 
     .hero p {
-      max-width: 650px;
+      max-width: 670px;
       margin: 0 auto 30px;
-      color: #e0ebe5;
       font-size: 18px;
+      color: #e2eee6;
     }
 
-    .search {
-      display: flex;
-      max-width: 610px;
-      margin: 0 auto;
-      padding: 7px;
-      background: white;
-      border-radius: 13px;
-      gap: 7px;
-    }
-
-    .search input {
-      flex: 1;
-      min-width: 0;
-      padding: 13px;
-      border: 0;
-      outline: none;
-      font: inherit;
-    }
-
-    .btn {
-      border: 0;
+    .button {
+      display: inline-block;
       background: var(--gold);
-      color: #25362b;
-      padding: 13px 22px;
-      border-radius: 9px;
+      color: #1a352a;
+      padding: 14px 25px;
+      border-radius: 10px;
       font-weight: 800;
-      cursor: pointer;
-      font: inherit;
+      transition: transform .2s;
     }
 
-    .section { padding: 75px 0; }
+    .button:hover {
+      transform: translateY(-2px);
+      color: #1a352a;
+    }
+
+    .section { padding: 80px 0; }
     .section.alt { background: #eef3ed; }
 
-    .section-head {
+    .heading {
       text-align: center;
-      max-width: 680px;
-      margin: 0 auto 35px;
+      max-width: 720px;
+      margin: 0 auto 40px;
     }
 
-    .section-head h2 {
-      font-size: clamp(27px, 4vw, 39px);
+    .heading h2 {
+      font-size: clamp(28px, 4vw, 41px);
+      letter-spacing: -1px;
       line-height: 1.2;
       margin: 12px 0;
-      letter-spacing: -1px;
     }
 
-    .section-head p { color: var(--muted); }
+    .heading p { color: var(--muted); }
 
     .grid {
       display: grid;
       grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 22px;
+      gap: 24px;
     }
 
     .card {
       background: white;
       border: 1px solid var(--border);
-      border-radius: 17px;
-      padding: 27px;
+      border-radius: 18px;
+      padding: 30px;
       transition: transform .2s, box-shadow .2s;
     }
 
     .card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 12px 32px #173d3214;
+      transform: translateY(-5px);
+      box-shadow: 0 15px 35px #173d3217;
     }
 
-    .card .emoji { font-size: 36px; }
+    .card .icon { font-size: 38px; }
 
     .card h3 {
-      font-size: 20px;
-      line-height: 1.35;
-      margin: 15px 0 9px;
+      font-size: 21px;
+      line-height: 1.3;
+      margin: 17px 0 10px;
     }
 
     .card p {
@@ -225,58 +201,47 @@
     }
 
     .card a {
-      color: var(--green2);
-      font-weight: 800;
+      color: var(--green-light);
       font-size: 14px;
+      font-weight: 800;
     }
 
     .tag {
       display: inline-block;
-      background: #eaf3ec;
-      color: #28644b;
-      border-radius: 30px;
+      background: #e7f1e9;
+      color: #27624d;
+      border-radius: 20px;
       padding: 5px 11px;
       font-size: 11px;
       font-weight: 800;
       text-transform: uppercase;
-      letter-spacing: .4px;
     }
 
     .feature {
       background: var(--green);
       color: white;
-      border-radius: 22px;
-      padding: 50px;
+      border-radius: 24px;
+      padding: 55px;
       display: flex;
-      justify-content: space-between;
       align-items: center;
+      justify-content: space-between;
       gap: 30px;
     }
 
     .feature h2 {
-      font-size: 34px;
+      font-size: 36px;
       line-height: 1.2;
-      margin: 10px 0;
+      margin: 12px 0;
     }
 
-    .feature p { color: #dbe9e1; }
+    .feature p { color: #d8e8dd; }
 
-    .feature .btn {
-      display: inline-block;
-      white-space: nowrap;
-    }
-
-    .empty {
-      display: none;
-      text-align: center;
-      color: var(--muted);
-      padding: 25px;
-    }
+    .feature .button { white-space: nowrap; }
 
     footer {
-      background: #102e26;
-      color: #e5efe8;
-      padding: 55px 0 25px;
+      background: #102d25;
+      color: #e2ebe4;
+      padding: 60px 0 25px;
     }
 
     .footer-grid {
@@ -286,228 +251,176 @@
     }
 
     footer h3 { color: white; }
+    footer p { color: #b8cbc0; }
     footer a { display: block; margin: 9px 0; }
-    footer p { color: #bdcec4; }
 
     .copyright {
-      border-top: 1px solid #38554a;
-      margin-top: 35px;
-      padding-top: 20px;
-      color: #bdcec4;
-      font-size: 13px;
+      border-top: 1px solid #38564a;
+      padding-top: 22px;
+      margin-top: 40px;
       text-align: center;
+      font-size: 13px;
+      color: #b8cbc0;
     }
 
     @media (max-width: 850px) {
-      .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-      .footer-grid { grid-template-columns: 1fr 1fr; }
-      .nav { flex-direction: column; padding: 16px 0; }
+      .grid { grid-template-columns: repeat(2, 1fr); }
+      .navbar { flex-direction: column; padding: 18px 0; }
       nav { justify-content: center; }
       .feature { flex-direction: column; text-align: center; }
+      .footer-grid { grid-template-columns: 1fr 1fr; }
     }
 
     @media (max-width: 560px) {
       .grid, .footer-grid { grid-template-columns: 1fr; }
-      .hero { padding: 65px 15px; }
-      .search { flex-direction: column; }
-      .search input { width: 100%; }
-      .feature { padding: 30px 20px; }
+      .hero { padding: 75px 15px; }
       .section { padding: 55px 0; }
-      nav { gap: 12px; font-size: 12px; }
+      .feature { padding: 30px 22px; }
+      nav { gap: 13px; font-size: 12px; }
     }
   </style>
 </head>
 
 <body>
-  <a class="skip" href="#main">Skip to content</a>
 
-  <div class="announcement">
+  <div class="topbar">
     DISCOVER MORE · CHOOSE BETTER · LIVE INSPIRED
   </div>
 
   <header>
-    <div class="container nav">
-      <a class="logo" href="index.html" aria-label="BrowseBloom home">
-        Browse<span>Bloom</span>
-      </a>
+    <div class="container navbar">
+      <a href="/" class="logo">Browse<span>Bloom</span></a>
 
       <nav aria-label="Main navigation">
-        <a href="#categories">Explore</a>
-        <a href="gifts.html">Gifts</a>
-        <a href="events.html">Holidays</a>
-        <a href="family.html">Family</a>
-        <a href="#guides">Guides</a>
-        <a href="about.html">About</a>
+        <a href="#categories">Categories</a>
+        <a href="#featured">Featured</a>
+        <a href="#about">About</a>
+        <a href="contact.html">Contact</a>
       </nav>
     </div>
   </header>
 
-  <main id="main">
+  <main>
 
     <section class="hero">
       <div class="container">
         <div class="eyebrow">Welcome to BrowseBloom</div>
-        <h1>Discover More.<br>Choose Better. Live Inspired.</h1>
+
+        <h1>Discover More.<br>Choose Better.<br>Live Inspired.</h1>
+
         <p>
-          Thoughtful gifts, smarter shopping, memorable experiences
-          and practical inspiration for every season.
+          Your destination for thoughtful gift ideas, smart shopping,
+          home inspiration, useful technology, travel experiences
+          and everyday discoveries.
         </p>
 
-        <form class="search" id="searchForm" role="search">
-          <input id="searchInput" type="search"
-            placeholder="Search gifts, Christmas markets, travel..."
-            aria-label="Search BrowseBloom guides">
-          <button class="btn" type="submit">Search Guides</button>
-        </form>
+        <a class="button" href="#categories">Start Exploring →</a>
       </div>
     </section>
 
     <section class="section" id="categories">
       <div class="container">
-        <div class="section-head">
-          <div class="eyebrow">Explore BrowseBloom</div>
-          <h2>Find Inspiration for Every Occasion</h2>
-          <p>Explore useful ideas for shopping, celebrating and everyday living.</p>
+        <div class="heading">
+          <div class="eyebrow">Explore Our World</div>
+          <h2>Something Worth Discovering</h2>
+          <p>
+            From finding the perfect gift to making everyday life easier,
+            explore the topics that matter to you.
+          </p>
         </div>
 
         <div class="grid">
+
           <div class="card">
-            <div class="emoji">🎁</div>
+            <div class="icon">🎁</div>
             <h3>Gifts & Shopping</h3>
-            <p>Thoughtful gifts, affordable finds and practical buying inspiration.</p>
-            <a href="gifts.html">Explore gift guides →</a>
+            <p>Gift ideas, buying guides and thoughtful finds for every budget.</p>
+            <a href="#featured">Explore Guides →</a>
           </div>
 
           <div class="card">
-            <div class="emoji">🎄</div>
-            <h3>Holidays & Celebrations</h3>
-            <p>Christmas markets, festive lights and memorable seasonal traditions.</p>
-            <a href="events.html">Explore holidays →</a>
+            <div class="icon">🏡</div>
+            <h3>Home & Living</h3>
+            <p>Decorating inspiration, kitchen essentials and useful home ideas.</p>
+            <a href="#featured">Explore Guides →</a>
           </div>
 
           <div class="card">
-            <div class="emoji">🏡</div>
-            <h3>Home & Lifestyle</h3>
-            <p>Simple decorating ideas, budget-friendly inspiration and everyday tips.</p>
-            <a href="budget-christmas-decorating-ideas.html">Explore home ideas →</a>
+            <div class="icon">💻</div>
+            <h3>Tech & Gadgets</h3>
+            <p>Practical technology, useful gadgets and product comparisons.</p>
+            <a href="#featured">Explore Guides →</a>
           </div>
 
           <div class="card">
-            <div class="emoji">👨‍👩‍👧</div>
-            <h3>Family Activities</h3>
-            <p>Affordable outings, festive experiences and family-friendly ideas.</p>
-            <a href="family.html">Explore family guides →</a>
-          </div>
-
-          <div class="card">
-            <div class="emoji">✈️</div>
+            <div class="icon">✈️</div>
             <h3>Travel & Experiences</h3>
-            <p>Discover places to visit, seasonal attractions and weekend inspiration.</p>
-            <a href="christmas-weekend-on-a-budget.html">Explore experiences →</a>
+            <p>Destination inspiration, travel tips and memorable experiences.</p>
+            <a href="#featured">Explore Guides →</a>
           </div>
 
           <div class="card">
-            <div class="emoji">💡</div>
-            <h3>Smart Spending</h3>
-            <p>Enjoy more without overspending with practical, budget-conscious ideas.</p>
-            <a href="budget-christmas.html">Explore savings ideas →</a>
+            <div class="icon">🎄</div>
+            <h3>Holidays & Celebrations</h3>
+            <p>Seasonal traditions, celebration ideas and family activities.</p>
+            <a href="#featured">Explore Guides →</a>
           </div>
+
+          <div class="card">
+            <div class="icon">💰</div>
+            <h3>Deals & Smart Spending</h3>
+            <p>Budget-conscious tips, affordable finds and smarter shopping.</p>
+            <a href="#featured">Explore Guides →</a>
+          </div>
+
         </div>
       </div>
     </section>
 
-    <section class="section alt" id="guides">
+    <section class="section alt" id="featured">
       <div class="container">
-        <div class="section-head">
-          <div class="eyebrow">Featured Reading</div>
-          <h2>Popular Guides & Inspiration</h2>
-          <p>Explore our growing collection of helpful seasonal and lifestyle articles.</p>
+        <div class="heading">
+          <div class="eyebrow">Coming to BrowseBloom</div>
+          <h2>Fresh Guides & Helpful Ideas</h2>
+          <p>
+            We're building practical, carefully researched guides
+            to help you discover products, experiences and ideas.
+          </p>
         </div>
 
-        <div class="grid" id="articleGrid">
+        <div class="grid">
 
-          <article class="card" data-search="toronto christmas lights canada holiday attractions">
-            <span class="tag">Canada · Lights</span>
-            <h3>Best Christmas Lights in Toronto 2026</h3>
-            <p>Discover festive displays and holiday attractions around Toronto.</p>
-            <a href="christmas-lights-toronto-2026.html">Read guide →</a>
+          <article class="card">
+            <span class="tag">Gift Ideas</span>
+            <h3>Thoughtful Gifts Under $50</h3>
+            <p>
+              Affordable gift inspiration for birthdays,
+              holidays and everyday occasions.
+            </p>
+            <p><strong>Guide coming soon</strong></p>
           </article>
 
-          <article class="card" data-search="new york nyc christmas markets shopping usa">
-            <span class="tag">USA · Markets</span>
-            <h3>Christmas Markets in New York City 2026</h3>
-            <p>Explore festive markets and seasonal shopping experiences in NYC.</p>
-            <a href="christmas-markets-nyc-2026.html">Read guide →</a>
+          <article class="card">
+            <span class="tag">Home & Living</span>
+            <h3>Practical Home Essentials</h3>
+            <p>
+              Useful everyday products and ideas for
+              a more comfortable home.
+            </p>
+            <p><strong>Guide coming soon</strong></p>
           </article>
 
-          <article class="card" data-search="montreal christmas markets quebec canada">
-            <span class="tag">Canada · Markets</span>
-            <h3>Christmas Markets in Montreal 2026</h3>
-            <p>Discover holiday markets and festive experiences in Montreal.</p>
-            <a href="christmas-markets-montreal-2026.html">Read guide →</a>
-          </article>
-
-          <article class="card" data-search="chicago christmas lights holiday usa">
-            <span class="tag">USA · Lights</span>
-            <h3>Christmas Lights in Chicago 2026</h3>
-            <p>Find festive light displays and holiday attractions around Chicago.</p>
-            <a href="christmas-lights-chicago-2026.html">Read guide →</a>
-          </article>
-
-          <article class="card" data-search="christmas gifts under 50 affordable budget shopping">
-            <span class="tag">Gifts · Shopping</span>
-            <h3>Christmas Gifts Under $50</h3>
-            <p>Explore thoughtful holiday gift ideas without overspending.</p>
-            <a href="christmas-gifts-under-50.html">Read guide →</a>
-          </article>
-
-          <article class="card" data-search="ontario christmas tree farms canada">
-            <span class="tag">Canada · Family</span>
-            <h3>Christmas Tree Farms in Ontario 2026</h3>
-            <p>Plan a seasonal outing and explore Christmas tree farm ideas.</p>
-            <a href="christmas-tree-farms-ontario-2026.html">Read guide →</a>
-          </article>
-
-          <article class="card" data-search="santa pictures near me family photos christmas">
-            <span class="tag">Family · Holidays</span>
-            <h3>Santa Pictures Near Me 2026</h3>
-            <p>Find ideas for memorable family photos during the holiday season.</p>
-            <a href="santa-pictures-near-me-2026.html">Read guide →</a>
-          </article>
-
-          <article class="card" data-search="free christmas activities family budget">
-            <span class="tag">Family · Savings</span>
-            <h3>Free Christmas Activities 2026</h3>
-            <p>Celebrate the holidays with affordable and free family activities.</p>
-            <a href="free-christmas-activities-2026.html">Read guide →</a>
-          </article>
-
-          <article class="card" data-search="budget christmas decorating home decor">
-            <span class="tag">Home · Decorating</span>
-            <h3>Budget Christmas Decorating Ideas</h3>
-            <p>Create a festive home with simple and affordable decorating inspiration.</p>
-            <a href="budget-christmas-decorating-ideas.html">Read guide →</a>
-          </article>
-
-          <article class="card" data-search="christmas weekend budget travel getaway">
-            <span class="tag">Travel · Savings</span>
-            <h3>Christmas Weekend on a Budget</h3>
-            <p>Plan a memorable seasonal weekend without overspending.</p>
-            <a href="christmas-weekend-on-a-budget.html">Read guide →</a>
-          </article>
-
-          <article class="card" data-search="budget christmas planning holiday saving">
-            <span class="tag">Holidays · Budget</span>
-            <h3>How to Celebrate Christmas on a Budget</h3>
-            <p>Discover practical ways to enjoy Christmas while managing spending.</p>
-            <a href="budget-christmas.html">Read guide →</a>
+          <article class="card">
+            <span class="tag">Tech & Gadgets</span>
+            <h3>Useful Tech for Everyday Life</h3>
+            <p>
+              Explore technology and gadgets designed
+              to make daily tasks simpler.
+            </p>
+            <p><strong>Guide coming soon</strong></p>
           </article>
 
         </div>
-
-        <p class="empty" id="noResults" role="status">
-          No matching guides found. Try a different search.
-        </p>
       </div>
     </section>
 
@@ -515,28 +428,33 @@
       <div class="container">
         <div class="feature">
           <div>
-            <div class="eyebrow">Explore the Season</div>
-            <h2>Make Every Celebration Memorable</h2>
-            <p>Discover Christmas markets, light displays and activities for the whole family.</p>
+            <div class="eyebrow">Our Mission</div>
+            <h2>Better Discoveries Start Here</h2>
+            <p>
+              BrowseBloom brings together useful information,
+              shopping inspiration and practical guides
+              to help you make confident choices.
+            </p>
           </div>
-          <a class="btn" href="events.html">Explore Holiday Guides →</a>
+          <a href="#about" class="button">Discover BrowseBloom →</a>
         </div>
       </div>
     </section>
 
-    <section class="section alt">
+    <section class="section alt" id="about">
       <div class="container">
-        <div class="section-head">
-          <div class="eyebrow">About BrowseBloom</div>
-          <h2>Ideas Worth Discovering</h2>
+        <div class="heading">
+          <div class="eyebrow">About Us</div>
+          <h2>Welcome to BrowseBloom</h2>
           <p>
-            BrowseBloom helps readers explore thoughtful gifts, seasonal experiences,
-            practical shopping ideas and everyday inspiration.
-            Our goal is to make discovering useful ideas simpler and more enjoyable.
+            BrowseBloom is an independent lifestyle and discovery
+            website covering shopping, gifts, home, technology,
+            travel and seasonal inspiration.
           </p>
           <p>
-            We are growing our collection of original guides and recommendations
-            for readers in Canada and beyond.
+            Our goal is to create helpful, accessible content
+            that makes exploring new ideas and comparing
+            options easier.
           </p>
         </div>
       </div>
@@ -547,19 +465,21 @@
   <footer>
     <div class="container">
       <div class="footer-grid">
+
         <div>
           <h3>BrowseBloom</h3>
-          <p>Discover more. Choose better. Live inspired.</p>
-          <p>Gifts, shopping, travel, lifestyle and seasonal inspiration.</p>
+          <p>Discover More. Choose Better. Live Inspired.</p>
+          <p>
+            Gift ideas, shopping guides and lifestyle inspiration
+            for curious readers.
+          </p>
         </div>
 
         <div>
           <h3>Explore</h3>
-          <a href="gifts.html">Gift Guides</a>
-          <a href="events.html">Holiday Guides</a>
-          <a href="family.html">Family Activities</a>
-          <a href="lights.html">Christmas Lights</a>
-          <a href="markets.html">Christmas Markets</a>
+          <a href="#categories">Categories</a>
+          <a href="#featured">Featured Guides</a>
+          <a href="#about">About BrowseBloom</a>
         </div>
 
         <div>
@@ -567,8 +487,9 @@
           <a href="about.html">About Us</a>
           <a href="contact.html">Contact</a>
           <a href="privacy.html">Privacy Policy</a>
-          <a href="terms.html">Terms</a>
+          <a href="terms.html">Terms & Conditions</a>
         </div>
+
       </div>
 
       <div class="copyright">
@@ -578,35 +499,6 @@
   </footer>
 
   <script>
-    const searchForm = document.getElementById("searchForm");
-    const searchInput = document.getElementById("searchInput");
-    const cards = [...document.querySelectorAll("#articleGrid .card")];
-    const noResults = document.getElementById("noResults");
-
-    searchForm.addEventListener("submit", function(event) {
-      event.preventDefault();
-
-      const query = searchInput.value.trim().toLowerCase();
-      let visible = 0;
-
-      cards.forEach(function(card) {
-        const text = (
-          card.textContent + " " + card.dataset.search
-        ).toLowerCase();
-
-        const match = !query || text.includes(query);
-        card.hidden = !match;
-
-        if (match) visible++;
-      });
-
-      noResults.style.display = visible === 0 ? "block" : "none";
-
-      document.getElementById("guides").scrollIntoView({
-        behavior: "smooth"
-      });
-    });
-
     document.getElementById("year").textContent =
       new Date().getFullYear();
   </script>
