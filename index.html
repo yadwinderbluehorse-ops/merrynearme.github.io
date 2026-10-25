@@ -4,17 +4,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#173d32">
+  <meta name="theme-color" content="#ffffff">
 
-  <title>BrowseBloom | Gift Ideas, Shopping Guides & Lifestyle Inspiration</title>
-  <meta name="description" content="Explore gift ideas, smart shopping guides, home and lifestyle inspiration, tech recommendations, travel tips and seasonal ideas at BrowseBloom.">
-  <meta name="robots" content="index, follow">
+  <title>BrowseBloom | Product Reviews, Shopping Finds & Gift Guides</title>
+  <meta name="description" content="Discover helpful product reviews, smart shopping finds, buying guides and thoughtful gift ideas. BrowseBloom helps you compare products and shop with confidence.">
+  <meta name="robots" content="index,follow">
   <link rel="canonical" href="https://browsebloom.online/">
 
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="BrowseBloom">
-  <meta property="og:title" content="BrowseBloom | Discover More. Choose Better.">
-  <meta property="og:description" content="Helpful gift guides, shopping ideas and lifestyle inspiration for every season.">
+  <meta property="og:title" content="BrowseBloom | Discover Better Products">
+  <meta property="og:description" content="Product reviews, shopping discoveries, comparisons and gift guides to help you shop smarter.">
   <meta property="og:url" content="https://browsebloom.online/">
 
   <script type="application/ld+json">
@@ -23,21 +23,22 @@
     "@type": "WebSite",
     "name": "BrowseBloom",
     "url": "https://browsebloom.online/",
-    "description": "Gift ideas, shopping guides, home, technology, travel and lifestyle inspiration.",
+    "description": "Independent shopping discovery, product reviews and gift guides.",
     "inLanguage": "en"
   }
   </script>
 
   <style>
     :root {
-      --green: #173d32;
-      --green-light: #27624d;
-      --gold: #e4b65b;
-      --cream: #faf8f3;
-      --white: #ffffff;
-      --text: #20352d;
-      --muted: #69776f;
-      --border: #e5e9e3;
+      --ink: #202824;
+      --muted: #68736d;
+      --green: #245b45;
+      --green-dark: #183f31;
+      --sage: #e9f0e9;
+      --cream: #f8f7f3;
+      --white: #fff;
+      --line: #e6e8e4;
+      --gold: #e8bc70;
     }
 
     * { box-sizing: border-box; }
@@ -46,202 +47,325 @@
 
     body {
       margin: 0;
-      background: var(--cream);
-      color: var(--text);
-      font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+      background: var(--white);
+      color: var(--ink);
+      font-family: Arial, Helvetica, sans-serif;
       line-height: 1.65;
     }
 
-    a { color: inherit; text-decoration: none; }
-    a:hover { color: var(--green-light); }
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    a:hover { color: var(--green); }
+
+    button, input { font: inherit; }
 
     .container {
-      max-width: 1180px;
+      width: min(1180px, calc(100% - 40px));
       margin: auto;
-      padding: 0 22px;
     }
 
-    .topbar {
-      background: var(--green);
-      color: white;
+    .skip-link {
+      position: absolute;
+      left: 10px;
+      top: -80px;
+      background: white;
+      padding: 10px;
+      z-index: 100;
+    }
+
+    .skip-link:focus { top: 10px; }
+
+    .top-strip {
+      padding: 8px 15px;
       text-align: center;
+      background: var(--green-dark);
+      color: white;
+      font-size: 12px;
+      letter-spacing: 1px;
+    }
+
+    .masthead {
+      padding: 25px 0 20px;
+      text-align: center;
+    }
+
+    .logo {
+      font-family: Georgia, serif;
+      font-size: clamp(36px, 6vw, 54px);
+      font-weight: 800;
+      letter-spacing: -2px;
+      line-height: 1.1;
+    }
+
+    .logo span { color: var(--green); }
+
+    .tagline {
+      color: var(--muted);
       font-size: 12px;
       letter-spacing: 1.5px;
-      padding: 9px;
+      text-transform: uppercase;
+      margin-top: 7px;
     }
 
-    header {
+    .nav-wrap {
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
       background: white;
-      border-bottom: 1px solid var(--border);
       position: sticky;
       top: 0;
       z-index: 20;
     }
 
-    .navbar {
+    .nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 28px;
+      padding: 15px 0;
+    }
+
+    .nav a {
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+    }
+
+    .section { padding: 65px 0; }
+
+    .section-heading {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 20px;
+      border-bottom: 2px solid var(--ink);
+      margin-bottom: 26px;
+      padding-bottom: 12px;
+    }
+
+    .section-heading h2 {
+      margin: 0;
+      font-family: Georgia, serif;
+      font-size: clamp(27px, 4vw, 36px);
+      line-height: 1.2;
+    }
+
+    .section-heading p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .intro {
+      padding: 45px 0 12px;
+      text-align: center;
+    }
+
+    .intro h1 {
+      font-family: Georgia, serif;
+      font-size: clamp(30px, 5vw, 47px);
+      line-height: 1.2;
+      margin: 0 auto 12px;
+      max-width: 850px;
+    }
+
+    .intro p {
+      max-width: 650px;
+      margin: auto;
+      color: var(--muted);
+      font-size: 16px;
+    }
+
+    .featured-grid {
+      display: grid;
+      grid-template-columns: 1.4fr 1fr;
+      gap: 28px;
+    }
+
+    .main-story {
+      background: var(--cream);
+      border: 1px solid var(--line);
+    }
+
+    .story-image {
+      min-height: 290px;
+      background:
+        linear-gradient(135deg, #e3e9df, #b4c8b7);
       display: flex;
       align-items: center;
-      justify-content: space-between;
-      gap: 25px;
-      min-height: 78px;
+      justify-content: center;
+      color: var(--green-dark);
+      font-size: 75px;
     }
 
-    .logo {
-      font-size: 29px;
-      font-weight: 850;
-      letter-spacing: -1.2px;
+    .main-story .story-image {
+      min-height: 370px;
+    }
+
+    .story-content { padding: 24px; }
+
+    .category-label {
       color: var(--green);
-    }
-
-    .logo span { color: #b18a38; }
-
-    nav {
-      display: flex;
-      gap: 22px;
-      flex-wrap: wrap;
-      font-size: 14px;
-      font-weight: 650;
-    }
-
-    .hero {
-      background:
-        radial-gradient(circle at 90% 15%, #477c63 0, transparent 40%),
-        linear-gradient(130deg, #102e26, #275d49);
-      color: white;
-      text-align: center;
-      padding: 105px 20px;
-    }
-
-    .eyebrow {
-      color: var(--gold);
-      font-size: 12px;
-      font-weight: 800;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-    }
-
-    .hero h1 {
-      font-size: clamp(37px, 6vw, 68px);
-      letter-spacing: -2px;
-      line-height: 1.12;
-      max-width: 850px;
-      margin: 20px auto;
-    }
-
-    .hero p {
-      max-width: 670px;
-      margin: 0 auto 30px;
-      font-size: 18px;
-      color: #e2eee6;
-    }
-
-    .button {
-      display: inline-block;
-      background: var(--gold);
-      color: #1a352a;
-      padding: 14px 25px;
-      border-radius: 10px;
-      font-weight: 800;
-      transition: transform .2s;
-    }
-
-    .button:hover {
-      transform: translateY(-2px);
-      color: #1a352a;
-    }
-
-    .section { padding: 80px 0; }
-    .section.alt { background: #eef3ed; }
-
-    .heading {
-      text-align: center;
-      max-width: 720px;
-      margin: 0 auto 40px;
-    }
-
-    .heading h2 {
-      font-size: clamp(28px, 4vw, 41px);
-      letter-spacing: -1px;
-      line-height: 1.2;
-      margin: 12px 0;
-    }
-
-    .heading p { color: var(--muted); }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 24px;
-    }
-
-    .card {
-      background: white;
-      border: 1px solid var(--border);
-      border-radius: 18px;
-      padding: 30px;
-      transition: transform .2s, box-shadow .2s;
-    }
-
-    .card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 15px 35px #173d3217;
-    }
-
-    .card .icon { font-size: 38px; }
-
-    .card h3 {
-      font-size: 21px;
-      line-height: 1.3;
-      margin: 17px 0 10px;
-    }
-
-    .card p {
-      color: var(--muted);
-      font-size: 14px;
-    }
-
-    .card a {
-      color: var(--green-light);
-      font-size: 14px;
-      font-weight: 800;
-    }
-
-    .tag {
-      display: inline-block;
-      background: #e7f1e9;
-      color: #27624d;
-      border-radius: 20px;
-      padding: 5px 11px;
       font-size: 11px;
       font-weight: 800;
       text-transform: uppercase;
+      letter-spacing: 1.4px;
     }
 
-    .feature {
-      background: var(--green);
-      color: white;
-      border-radius: 24px;
-      padding: 55px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 30px;
-    }
-
-    .feature h2 {
-      font-size: 36px;
-      line-height: 1.2;
+    .story-content h2,
+    .story-content h3 {
+      font-family: Georgia, serif;
+      line-height: 1.25;
       margin: 12px 0;
     }
 
-    .feature p { color: #d8e8dd; }
+    .story-content h2 { font-size: 32px; }
+    .story-content h3 { font-size: 23px; }
 
-    .feature .button { white-space: nowrap; }
+    .story-content p {
+      color: var(--muted);
+      font-size: 14px;
+      margin-bottom: 0;
+    }
+
+    .side-stories {
+      display: grid;
+      gap: 20px;
+    }
+
+    .side-story {
+      display: grid;
+      grid-template-columns: 145px 1fr;
+      border-bottom: 1px solid var(--line);
+      gap: 17px;
+      padding-bottom: 20px;
+    }
+
+    .side-story .story-image {
+      min-height: 145px;
+      font-size: 45px;
+    }
+
+    .side-story h3 {
+      font-family: Georgia, serif;
+      font-size: 21px;
+      line-height: 1.3;
+      margin: 8px 0;
+    }
+
+    .side-story p {
+      font-size: 13px;
+      color: var(--muted);
+      margin: 0;
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 25px;
+    }
+
+    .article-card {
+      border: 1px solid var(--line);
+      background: white;
+      overflow: hidden;
+    }
+
+    .article-card .story-image {
+      min-height: 205px;
+      font-size: 55px;
+    }
+
+    .article-card .story-content {
+      padding: 21px;
+    }
+
+    .article-card h3 {
+      font-family: Georgia, serif;
+      font-size: 22px;
+      margin: 10px 0;
+      line-height: 1.3;
+    }
+
+    .coming-soon {
+      display: inline-block;
+      margin-top: 14px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+      background: var(--cream);
+      padding: 6px 10px;
+      border-radius: 4px;
+    }
+
+    .categories {
+      background: var(--cream);
+    }
+
+    .category-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 18px;
+    }
+
+    .category-box {
+      background: white;
+      border: 1px solid var(--line);
+      padding: 28px 20px;
+      text-align: center;
+    }
+
+    .category-box .symbol {
+      font-size: 35px;
+      margin-bottom: 10px;
+    }
+
+    .category-box h3 {
+      font-family: Georgia, serif;
+      font-size: 19px;
+      margin: 8px 0;
+    }
+
+    .category-box p {
+      font-size: 13px;
+      color: var(--muted);
+      margin: 0;
+    }
+
+    .mission {
+      background: var(--sage);
+      text-align: center;
+      padding: 65px 20px;
+    }
+
+    .mission h2 {
+      font-family: Georgia, serif;
+      font-size: 35px;
+      margin: 0 0 15px;
+    }
+
+    .mission p {
+      max-width: 720px;
+      margin: auto;
+      color: #485b4e;
+    }
+
+    .disclosure {
+      background: #f8f8f6;
+      padding: 24px;
+      border-left: 4px solid var(--green);
+      font-size: 13px;
+      color: #58645c;
+    }
 
     footer {
-      background: #102d25;
-      color: #e2ebe4;
-      padding: 60px 0 25px;
+      background: var(--green-dark);
+      color: white;
+      padding: 55px 0 25px;
     }
 
     .footer-grid {
@@ -250,258 +374,311 @@
       gap: 35px;
     }
 
-    footer h3 { color: white; }
-    footer p { color: #b8cbc0; }
-    footer a { display: block; margin: 9px 0; }
-
-    .copyright {
-      border-top: 1px solid #38564a;
-      padding-top: 22px;
-      margin-top: 40px;
-      text-align: center;
-      font-size: 13px;
-      color: #b8cbc0;
+    footer h3 {
+      font-family: Georgia, serif;
+      font-size: 21px;
+      margin-top: 0;
     }
 
-    @media (max-width: 850px) {
-      .grid { grid-template-columns: repeat(2, 1fr); }
-      .navbar { flex-direction: column; padding: 18px 0; }
-      nav { justify-content: center; }
-      .feature { flex-direction: column; text-align: center; }
+    footer p {
+      color: #c5d6cb;
+      font-size: 14px;
+    }
+
+    footer a {
+      display: block;
+      margin: 9px 0;
+      font-size: 14px;
+    }
+
+    footer a:hover { color: var(--gold); }
+
+    .copyright {
+      border-top: 1px solid #446454;
+      text-align: center;
+      margin-top: 35px;
+      padding-top: 20px;
+      color: #c5d6cb;
+      font-size: 12px;
+    }
+
+    @media (max-width: 900px) {
+      .featured-grid { grid-template-columns: 1fr; }
+      .card-grid { grid-template-columns: repeat(2, 1fr); }
+      .category-grid { grid-template-columns: repeat(2, 1fr); }
       .footer-grid { grid-template-columns: 1fr 1fr; }
     }
 
-    @media (max-width: 560px) {
-      .grid, .footer-grid { grid-template-columns: 1fr; }
-      .hero { padding: 75px 15px; }
-      .section { padding: 55px 0; }
-      .feature { padding: 30px 22px; }
-      nav { gap: 13px; font-size: 12px; }
+    @media (max-width: 600px) {
+      .container { width: min(100% - 28px, 1180px); }
+      .nav { gap: 13px; }
+      .nav a { font-size: 11px; }
+      .section { padding: 45px 0; }
+      .card-grid, .category-grid, .footer-grid {
+        grid-template-columns: 1fr;
+      }
+      .side-story {
+        grid-template-columns: 110px 1fr;
+        gap: 12px;
+      }
+      .side-story .story-image {
+        min-height: 110px;
+      }
+      .side-story h3 { font-size: 17px; }
+      .story-content h2 { font-size: 27px; }
+      .main-story .story-image { min-height: 240px; }
+      .section-heading { align-items: start; flex-direction: column; }
     }
   </style>
 </head>
 
 <body>
 
-  <div class="topbar">
-    DISCOVER MORE · CHOOSE BETTER · LIVE INSPIRED
+<a href="#main" class="skip-link">Skip to content</a>
+
+<div class="top-strip">
+  SMARTER SHOPPING · HONEST GUIDES · BETTER DISCOVERIES
+</div>
+
+<header>
+  <div class="container masthead">
+    <a href="/" class="logo" aria-label="BrowseBloom homepage">
+      Browse<span>Bloom</span>
+    </a>
+    <div class="tagline">
+      Discover Better Products. Shop Smarter.
+    </div>
   </div>
+</header>
 
-  <header>
-    <div class="container navbar">
-      <a href="/" class="logo">Browse<span>Bloom</span></a>
+<div class="nav-wrap">
+  <nav class="container nav" aria-label="Main navigation">
+    <a href="/">Home</a>
+    <a href="#reviews">Product Reviews</a>
+    <a href="#shopping">Shopping Finds</a>
+    <a href="#categories">Categories</a>
+    <a href="#about">About</a>
+  </nav>
+</div>
 
-      <nav aria-label="Main navigation">
-        <a href="#categories">Categories</a>
-        <a href="#featured">Featured</a>
-        <a href="#about">About</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+<main id="main">
+
+  <section class="intro container">
+    <h1>Find Products Worth Discovering</h1>
+    <p>
+      Explore shopping ideas, product comparisons and practical
+      buying advice to help you make more confident decisions.
+    </p>
+  </section>
+
+  <section class="section container" id="shopping">
+    <div class="section-heading">
+      <h2>Editor's Picks & Shopping Finds</h2>
+      <p>Ideas and guides we're preparing</p>
     </div>
-  </header>
 
-  <main>
+    <div class="featured-grid">
 
-    <section class="hero">
-      <div class="container">
-        <div class="eyebrow">Welcome to BrowseBloom</div>
-
-        <h1>Discover More.<br>Choose Better.<br>Live Inspired.</h1>
-
-        <p>
-          Your destination for thoughtful gift ideas, smart shopping,
-          home inspiration, useful technology, travel experiences
-          and everyday discoveries.
-        </p>
-
-        <a class="button" href="#categories">Start Exploring →</a>
-      </div>
-    </section>
-
-    <section class="section" id="categories">
-      <div class="container">
-        <div class="heading">
-          <div class="eyebrow">Explore Our World</div>
-          <h2>Something Worth Discovering</h2>
+      <article class="main-story">
+        <div class="story-image" aria-hidden="true">🎁</div>
+        <div class="story-content">
+          <div class="category-label">Gift Guides</div>
+          <h2>Thoughtful Gift Ideas for Every Budget</h2>
           <p>
-            From finding the perfect gift to making everyday life easier,
-            explore the topics that matter to you.
+            We're preparing useful gift guides organized by
+            occasion, recipient and budget.
           </p>
+          <span class="coming-soon">Coming Soon</span>
         </div>
+      </article>
 
-        <div class="grid">
+      <div class="side-stories">
 
-          <div class="card">
-            <div class="icon">🎁</div>
-            <h3>Gifts & Shopping</h3>
-            <p>Gift ideas, buying guides and thoughtful finds for every budget.</p>
-            <a href="#featured">Explore Guides →</a>
-          </div>
-
-          <div class="card">
-            <div class="icon">🏡</div>
-            <h3>Home & Living</h3>
-            <p>Decorating inspiration, kitchen essentials and useful home ideas.</p>
-            <a href="#featured">Explore Guides →</a>
-          </div>
-
-          <div class="card">
-            <div class="icon">💻</div>
-            <h3>Tech & Gadgets</h3>
-            <p>Practical technology, useful gadgets and product comparisons.</p>
-            <a href="#featured">Explore Guides →</a>
-          </div>
-
-          <div class="card">
-            <div class="icon">✈️</div>
-            <h3>Travel & Experiences</h3>
-            <p>Destination inspiration, travel tips and memorable experiences.</p>
-            <a href="#featured">Explore Guides →</a>
-          </div>
-
-          <div class="card">
-            <div class="icon">🎄</div>
-            <h3>Holidays & Celebrations</h3>
-            <p>Seasonal traditions, celebration ideas and family activities.</p>
-            <a href="#featured">Explore Guides →</a>
-          </div>
-
-          <div class="card">
-            <div class="icon">💰</div>
-            <h3>Deals & Smart Spending</h3>
-            <p>Budget-conscious tips, affordable finds and smarter shopping.</p>
-            <a href="#featured">Explore Guides →</a>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <section class="section alt" id="featured">
-      <div class="container">
-        <div class="heading">
-          <div class="eyebrow">Coming to BrowseBloom</div>
-          <h2>Fresh Guides & Helpful Ideas</h2>
-          <p>
-            We're building practical, carefully researched guides
-            to help you discover products, experiences and ideas.
-          </p>
-        </div>
-
-        <div class="grid">
-
-          <article class="card">
-            <span class="tag">Gift Ideas</span>
-            <h3>Thoughtful Gifts Under $50</h3>
-            <p>
-              Affordable gift inspiration for birthdays,
-              holidays and everyday occasions.
-            </p>
-            <p><strong>Guide coming soon</strong></p>
-          </article>
-
-          <article class="card">
-            <span class="tag">Home & Living</span>
-            <h3>Practical Home Essentials</h3>
-            <p>
-              Useful everyday products and ideas for
-              a more comfortable home.
-            </p>
-            <p><strong>Guide coming soon</strong></p>
-          </article>
-
-          <article class="card">
-            <span class="tag">Tech & Gadgets</span>
-            <h3>Useful Tech for Everyday Life</h3>
-            <p>
-              Explore technology and gadgets designed
-              to make daily tasks simpler.
-            </p>
-            <p><strong>Guide coming soon</strong></p>
-          </article>
-
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="container">
-        <div class="feature">
+        <article class="side-story">
+          <div class="story-image" aria-hidden="true">☕</div>
           <div>
-            <div class="eyebrow">Our Mission</div>
-            <h2>Better Discoveries Start Here</h2>
-            <p>
-              BrowseBloom brings together useful information,
-              shopping inspiration and practical guides
-              to help you make confident choices.
-            </p>
+            <div class="category-label">Kitchen</div>
+            <h3>Everyday Kitchen Products Worth Considering</h3>
+            <p>Useful tools and practical buying advice.</p>
           </div>
-          <a href="#about" class="button">Discover BrowseBloom →</a>
-        </div>
-      </div>
-    </section>
+        </article>
 
-    <section class="section alt" id="about">
-      <div class="container">
-        <div class="heading">
-          <div class="eyebrow">About Us</div>
-          <h2>Welcome to BrowseBloom</h2>
-          <p>
-            BrowseBloom is an independent lifestyle and discovery
-            website covering shopping, gifts, home, technology,
-            travel and seasonal inspiration.
-          </p>
-          <p>
-            Our goal is to create helpful, accessible content
-            that makes exploring new ideas and comparing
-            options easier.
-          </p>
-        </div>
-      </div>
-    </section>
+        <article class="side-story">
+          <div class="story-image" aria-hidden="true">🎧</div>
+          <div>
+            <div class="category-label">Technology</div>
+            <h3>Useful Gadgets for Everyday Life</h3>
+            <p>Technology ideas and product comparisons.</p>
+          </div>
+        </article>
 
-  </main>
+        <article class="side-story">
+          <div class="story-image" aria-hidden="true">🏡</div>
+          <div>
+            <div class="category-label">Home & Living</div>
+            <h3>Simple Products That Make Home Life Easier</h3>
+            <p>Discover home organization and everyday essentials.</p>
+          </div>
+        </article>
 
-  <footer>
-    <div class="container">
-      <div class="footer-grid">
-
-        <div>
-          <h3>BrowseBloom</h3>
-          <p>Discover More. Choose Better. Live Inspired.</p>
-          <p>
-            Gift ideas, shopping guides and lifestyle inspiration
-            for curious readers.
-          </p>
-        </div>
-
-        <div>
-          <h3>Explore</h3>
-          <a href="#categories">Categories</a>
-          <a href="#featured">Featured Guides</a>
-          <a href="#about">About BrowseBloom</a>
-        </div>
-
-        <div>
-          <h3>Information</h3>
-          <a href="about.html">About Us</a>
-          <a href="contact.html">Contact</a>
-          <a href="privacy.html">Privacy Policy</a>
-          <a href="terms.html">Terms & Conditions</a>
-        </div>
-
-      </div>
-
-      <div class="copyright">
-        © <span id="year">2026</span> BrowseBloom. All rights reserved.
       </div>
     </div>
-  </footer>
+  </section>
 
-  <script>
-    document.getElementById("year").textContent =
-      new Date().getFullYear();
-  </script>
+  <section class="section categories" id="categories">
+    <div class="container">
+      <div class="section-heading">
+        <h2>Explore by Category</h2>
+        <p>Find guides that match your interests</p>
+      </div>
+
+      <div class="category-grid">
+
+        <div class="category-box">
+          <div class="symbol">🎧</div>
+          <h3>Tech & Gadgets</h3>
+          <p>Headphones, accessories and everyday technology.</p>
+        </div>
+
+        <div class="category-box">
+          <div class="symbol">🍳</div>
+          <h3>Kitchen & Home</h3>
+          <p>Useful products for everyday living.</p>
+        </div>
+
+        <div class="category-box">
+          <div class="symbol">🎁</div>
+          <h3>Gifts</h3>
+          <p>Thoughtful finds for different occasions and budgets.</p>
+        </div>
+
+        <div class="category-box">
+          <div class="symbol">🛍️</div>
+          <h3>Shopping Finds</h3>
+          <p>Interesting products and practical buying ideas.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section container" id="reviews">
+    <div class="section-heading">
+      <h2>Product Reviews & Buying Guides</h2>
+      <p>Helpful comparisons coming soon</p>
+    </div>
+
+    <div class="card-grid">
+
+      <article class="article-card">
+        <div class="story-image" aria-hidden="true">🎧</div>
+        <div class="story-content">
+          <div class="category-label">Tech</div>
+          <h3>How to Choose Wireless Headphones</h3>
+          <p>
+            Features, comfort, battery life and other
+            factors worth comparing before buying.
+          </p>
+          <span class="coming-soon">Coming Soon</span>
+        </div>
+      </article>
+
+      <article class="article-card">
+        <div class="story-image" aria-hidden="true">☕</div>
+        <div class="story-content">
+          <div class="category-label">Kitchen</div>
+          <h3>What to Look for in a Coffee Maker</h3>
+          <p>
+            Understand common features and choose
+            the right type for your needs.
+          </p>
+          <span class="coming-soon">Coming Soon</span>
+        </div>
+      </article>
+
+      <article class="article-card">
+        <div class="story-image" aria-hidden="true">🏠</div>
+        <div class="story-content">
+          <div class="category-label">Home</div>
+          <h3>Smart Home Organization Ideas</h3>
+          <p>
+            Explore practical ways to organize
+            everyday household essentials.
+          </p>
+          <span class="coming-soon">Coming Soon</span>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="mission" id="about">
+    <div class="container">
+      <h2>Shopping Advice Made Simpler</h2>
+      <p>
+        BrowseBloom is an independent shopping discovery and
+        product guide website. Our goal is to help readers
+        understand their options, compare useful features
+        and discover products that suit their needs and budgets.
+      </p>
+    </div>
+  </section>
+
+  <section class="section container">
+    <div class="disclosure">
+      <strong>Editorial & Affiliate Disclosure:</strong>
+      BrowseBloom may earn a commission when readers purchase
+      through qualifying affiliate links, at no additional
+      cost to them. Recommendations should be based on
+      relevant research and clearly explained selection criteria.
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="container">
+
+    <div class="footer-grid">
+
+      <div>
+        <h3>BrowseBloom</h3>
+        <p>Discover Better Products. Shop Smarter.</p>
+        <p>
+          Independent shopping discoveries, product guides
+          and useful buying information.
+        </p>
+      </div>
+
+      <div>
+        <h3>Explore</h3>
+        <a href="#shopping">Shopping Finds</a>
+        <a href="#reviews">Product Reviews</a>
+        <a href="#categories">Categories</a>
+      </div>
+
+      <div>
+        <h3>Information</h3>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms & Conditions</a>
+      </div>
+
+    </div>
+
+    <div class="copyright">
+      © <span id="year">2026</span> BrowseBloom.
+      All rights reserved.
+    </div>
+
+  </div>
+</footer>
+
+<script>
+  document.getElementById("year").textContent =
+    new Date().getFullYear();
+</script>
 
 </body>
 </html>
