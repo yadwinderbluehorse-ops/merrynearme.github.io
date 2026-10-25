@@ -65,6 +65,8 @@ BLOCKED_TOPIC_WORDS = {
 
 # Reject obvious non-news listings.
 BLOCKED_HEADLINE_WORDS = {
+    
+BLOCKED_HEADLINE_WORDS = {
     "obituary",
     "obituaries",
     "death notice",
@@ -74,7 +76,28 @@ BLOCKED_HEADLINE_WORDS = {
     "daily horoscope",
     "lottery results",
     "job openings",
-    "real estate listings"
+    "real estate listings",
+
+    # Promotional and affiliate content
+    "promo code",
+    "promotional code",
+    "coupon code",
+    "discount code",
+    "referral code",
+    "signup bonus",
+    "sign-up bonus",
+    "welcome bonus",
+    "bonus offer",
+    "exclusive offer",
+    "special offer",
+    "get $",
+    "claim your bonus",
+    "free bets",
+    "best betting sites",
+    "betting bonus",
+    "odds boost"
+}
+
 }
 
 # Common words that do not identify an event.
