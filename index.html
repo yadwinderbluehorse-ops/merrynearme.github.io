@@ -3,25 +3,24 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3966199702786044"
-     crossorigin="anonymous"></script>
-
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#ffffff">
 
-  <title>BrowseBloom | Product Reviews, Buying Guides & Shopping Finds</title>
-
-  <meta name="description" content="Discover product reviews, practical buying guides, shopping finds and gift ideas at BrowseBloom. Compare features and make smarter shopping decisions.">
-
+  <title>BrowseBloom | Trending News, Stories & Buying Guides</title>
+  <meta name="description" content="Explore trending searches in Canada, technology, entertainment, sports, lifestyle stories and practical product buying guides on BrowseBloom.">
   <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#ffffff">
   <link rel="canonical" href="https://browsebloom.online/">
 
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="BrowseBloom">
-  <meta property="og:title" content="BrowseBloom | Shop Smarter">
-  <meta property="og:description" content="Explore helpful product reviews, shopping guides and gift ideas.">
+  <meta property="og:title" content="BrowseBloom | Trending Stories & Discoveries">
+  <meta property="og:description" content="Discover what's trending in Canada, explore useful stories and shop smarter.">
   <meta property="og:url" content="https://browsebloom.online/">
+
+  <!-- Existing Google AdSense publisher -->
+  <script async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3966199702786044"
+    crossorigin="anonymous"></script>
 
   <script type="application/ld+json">
   {
@@ -29,38 +28,33 @@
     "@type": "WebSite",
     "name": "BrowseBloom",
     "url": "https://browsebloom.online/",
-    "description": "Product reviews, shopping discovery and practical buying guides.",
+    "description": "Trending topics, useful stories, product reviews and buying guides.",
     "inLanguage": "en"
   }
   </script>
 
   <style>
     :root {
-      --ink: #202824;
-      --muted: #68736d;
       --green: #245b45;
       --dark: #183f31;
-      --sage: #e9f0e9;
-      --cream: #f8f7f3;
+      --ink: #202824;
+      --muted: #68736d;
+      --cream: #faf9f6;
+      --sage: #edf3ed;
+      --line: #e5e8e3;
       --white: #ffffff;
-      --line: #e6e8e4;
-      --gold: #e8bc70;
     }
 
-    * {
-      box-sizing: border-box;
-    }
+    * { box-sizing: border-box; }
 
-    html {
-      scroll-behavior: smooth;
-    }
+    html { scroll-behavior: smooth; }
 
     body {
       margin: 0;
-      background: var(--white);
-      color: var(--ink);
       font-family: Arial, Helvetica, sans-serif;
-      line-height: 1.65;
+      color: var(--ink);
+      background: var(--white);
+      line-height: 1.6;
     }
 
     a {
@@ -68,66 +62,53 @@
       text-decoration: none;
     }
 
-    a:hover {
-      color: var(--green);
-    }
+    a:hover { color: var(--green); }
 
     a:focus-visible {
       outline: 3px solid var(--green);
-      outline-offset: 4px;
+      outline-offset: 3px;
     }
 
     .container {
-      width: min(1180px, calc(100% - 40px));
+      width: min(1160px, calc(100% - 36px));
       margin: auto;
     }
 
     .skip-link {
       position: absolute;
-      top: -100px;
       left: 10px;
+      top: -100px;
       background: white;
-      padding: 12px;
+      padding: 10px;
       z-index: 100;
     }
 
-    .skip-link:focus {
-      top: 10px;
-    }
+    .skip-link:focus { top: 10px; }
+
+    /* HEADER */
 
     .top-strip {
       background: var(--dark);
       color: white;
+      padding: 8px 12px;
       text-align: center;
-      padding: 9px 15px;
       font-size: 11px;
-      letter-spacing: 1.2px;
+      letter-spacing: 1px;
     }
 
-    .masthead {
+    .header {
+      padding: 22px 0;
       text-align: center;
-      padding: 27px 0 22px;
     }
 
     .logo {
       font-family: Georgia, serif;
-      font-size: clamp(36px, 6vw, 54px);
+      font-size: clamp(34px, 5vw, 49px);
       font-weight: 800;
       letter-spacing: -2px;
-      line-height: 1.1;
     }
 
-    .logo span {
-      color: var(--green);
-    }
-
-    .tagline {
-      color: var(--muted);
-      font-size: 12px;
-      letter-spacing: 1.4px;
-      text-transform: uppercase;
-      margin-top: 8px;
-    }
+    .logo span { color: var(--green); }
 
     .nav-wrap {
       position: sticky;
@@ -141,395 +122,377 @@
     .nav {
       display: flex;
       justify-content: center;
-      align-items: center;
+      gap: 25px;
       flex-wrap: wrap;
-      gap: 26px;
-      padding: 15px 0;
+      padding: 14px 0;
     }
 
     .nav a {
       font-size: 12px;
       font-weight: 700;
       text-transform: uppercase;
-      letter-spacing: .6px;
+      letter-spacing: .5px;
     }
 
-    .intro {
-      padding: 48px 0 20px;
-      text-align: center;
-    }
-
-    .intro h1 {
-      font-family: Georgia, serif;
-      font-size: clamp(32px, 5vw, 48px);
-      line-height: 1.2;
-      max-width: 820px;
-      margin: 0 auto 14px;
-    }
-
-    .intro p {
-      max-width: 660px;
-      margin: auto;
-      color: var(--muted);
-      font-size: 16px;
-    }
+    /* COMMON */
 
     .section {
-      padding: 55px 0;
+      padding: 48px 0;
       scroll-margin-top: 80px;
     }
 
     .section-heading {
       display: flex;
-      justify-content: space-between;
       align-items: end;
-      gap: 20px;
-      border-bottom: 2px solid var(--ink);
-      padding-bottom: 13px;
-      margin-bottom: 27px;
+      justify-content: space-between;
+      gap: 15px;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 14px;
+      margin-bottom: 25px;
     }
 
     .section-heading h2 {
       font-family: Georgia, serif;
       font-size: clamp(27px, 4vw, 35px);
-      line-height: 1.2;
       margin: 0;
+      line-height: 1.2;
     }
 
     .section-heading p {
+      margin: 0;
       font-size: 13px;
       color: var(--muted);
-      margin: 0;
     }
 
-    .featured-grid {
-      display: grid;
-      grid-template-columns: 1.35fr 1fr;
-      gap: 26px;
-    }
-
-    .featured-main {
-      background: var(--cream);
-      border: 1px solid var(--line);
-      display: block;
-      transition: transform .2s ease;
-    }
-
-    .featured-main:hover,
-    .article-card:hover {
-      transform: translateY(-3px);
-    }
-
-    .story-image {
-      min-height: 210px;
-      background: linear-gradient(135deg, #e8eee7, #b9cdbd);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: 65px;
-    }
-
-    .featured-main .story-image {
-      min-height: 355px;
-      font-size: 85px;
-    }
-
-    .story-content {
-      padding: 24px;
-    }
-
-    .category-label {
+    .eyebrow {
       color: var(--green);
       font-size: 11px;
       font-weight: 800;
-      letter-spacing: 1.3px;
+      letter-spacing: 1px;
       text-transform: uppercase;
     }
 
-    .story-content h2,
-    .story-content h3 {
-      font-family: Georgia, serif;
-      line-height: 1.3;
-      margin: 10px 0;
-    }
+    /* TRENDING SECTION */
 
-    .story-content h2 {
-      font-size: 31px;
-    }
-
-    .story-content h3 {
-      font-size: 22px;
-    }
-
-    .story-content p {
-      color: var(--muted);
-      font-size: 14px;
-      margin: 0;
-    }
-
-    .read-more {
-      display: inline-block;
-      color: var(--green);
-      font-size: 13px;
-      font-weight: 800;
-      margin-top: 17px;
-    }
-
-    .side-stories {
-      display: grid;
-      gap: 18px;
-    }
-
-    .side-story {
-      display: grid;
-      grid-template-columns: 145px 1fr;
-      gap: 18px;
-      border-bottom: 1px solid var(--line);
-      padding-bottom: 18px;
-    }
-
-    .side-story .story-image {
-      min-height: 145px;
-      font-size: 43px;
-    }
-
-    .side-story h3 {
-      font-family: Georgia, serif;
-      font-size: 20px;
-      line-height: 1.3;
-      margin: 8px 0;
-    }
-
-    .side-story p {
-      color: var(--muted);
-      font-size: 13px;
-      margin: 0;
-    }
-
-    .categories {
+    .trending-section {
       background: var(--cream);
+      padding-top: 36px;
     }
 
-    .category-grid {
+    .trending-heading {
+      margin-bottom: 22px;
+    }
+
+    .trending-heading h1 {
+      font-family: Georgia, serif;
+      font-size: clamp(32px, 5vw, 45px);
+      margin: 5px 0 6px;
+      line-height: 1.2;
+    }
+
+    .trending-heading p {
+      color: var(--muted);
+      margin: 0;
+      font-size: 14px;
+    }
+
+    .trend-grid {
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 18px;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
     }
 
-    .category-box {
-      display: block;
+    .trend-card {
       background: white;
       border: 1px solid var(--line);
-      padding: 28px 18px;
-      text-align: center;
-      transition: background .2s ease;
+      border-radius: 10px;
+      padding: 22px;
+      display: flex;
+      align-items: start;
+      gap: 15px;
+      min-width: 0;
+      transition: transform .2s, border-color .2s;
     }
 
-    .category-box:hover {
-      background: var(--sage);
+    .trend-card:hover {
+      transform: translateY(-2px);
+      border-color: #a6c4b1;
     }
 
-    .category-box .symbol {
-      font-size: 34px;
+    .trend-number {
+      color: #b4c3b8;
+      font-family: Georgia, serif;
+      font-size: 27px;
+      font-weight: bold;
+      line-height: 1;
+      min-width: 38px;
     }
 
-    .category-box h3 {
+    .trend-content {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .trend-card h3 {
       font-family: Georgia, serif;
       font-size: 19px;
-      margin: 10px 0 5px;
+      line-height: 1.3;
+      margin: 6px 0;
+      overflow-wrap: anywhere;
     }
 
-    .category-box p {
-      font-size: 13px;
+    .trend-meta {
+      font-size: 12px;
       color: var(--muted);
-      margin: 0;
     }
+
+    .trend-arrow {
+      color: var(--green);
+      font-size: 19px;
+    }
+
+    .trend-status {
+      background: white;
+      border: 1px solid var(--line);
+      border-left: 4px solid var(--green);
+      padding: 20px;
+      color: var(--muted);
+      border-radius: 5px;
+    }
+
+    .trend-footer {
+      margin-top: 17px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 10px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .trend-footer a {
+      color: var(--green);
+      font-weight: bold;
+      text-decoration: underline;
+    }
+
+    /* CATEGORY PILLS */
+
+    .category-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 25px;
+    }
+
+    .category-pill {
+      border: 1px solid #d7e4d9;
+      border-radius: 30px;
+      background: white;
+      padding: 8px 15px;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    /* ARTICLE CARDS */
 
     .card-grid {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 25px;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 22px;
     }
 
     .article-card {
       display: block;
       background: white;
       border: 1px solid var(--line);
-      transition: transform .2s ease;
+      border-radius: 9px;
+      overflow: hidden;
+      transition: transform .2s;
     }
 
-    .article-card .story-content {
-      padding: 22px;
+    .article-card:hover {
+      transform: translateY(-3px);
     }
 
-    .article-card .story-image {
-      min-height: 190px;
-      font-size: 55px;
+    .story-image {
+      background: linear-gradient(135deg, #e8eee7, #bbd0be);
+      min-height: 180px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 58px;
     }
 
-    .article-card h3 {
+    .story-content {
+      padding: 20px;
+    }
+
+    .story-content h3 {
       font-family: Georgia, serif;
       font-size: 21px;
       line-height: 1.3;
-      margin: 10px 0;
+      margin: 8px 0;
     }
 
-    .article-card p {
+    .story-content p {
       color: var(--muted);
       font-size: 13px;
       margin: 0;
     }
 
-    /* Trending & Discover: editorial section */
-    .trending-section { background: #f4f7f3; }
-    .trending-intro { max-width: 750px; color: var(--muted); margin: 0 0 25px; }
-    .trend-topics { display: grid; grid-template-columns: repeat(5,minmax(0,1fr)); gap: 12px; margin: 20px 0 30px; }
-    .trend-topic { background: white; border: 1px solid var(--line); padding: 18px 12px; text-align: center; border-radius: 8px; }
-    .trend-topic span { display: block; font-size: 27px; margin-bottom: 6px; }
-    .trend-topic strong { font-size: 13px; }
-    .trending-empty { background: white; border: 1px solid var(--line); border-left: 4px solid var(--green); padding: 24px; }
-    .trending-empty h3 { font-family: Georgia,serif; margin: 0 0 8px; font-size: 23px; }
-    .trending-empty p { color: var(--muted); margin: 0 0 12px; }
-    .trending-empty a { color: var(--green); font-weight: 700; text-decoration: underline; }
-
-    .mission {
-      background: var(--sage);
-      text-align: center;
-      padding: 65px 20px;
+    .read-more {
+      display: inline-block;
+      margin-top: 13px;
+      font-size: 13px;
+      font-weight: bold;
+      color: var(--green);
     }
 
-    .mission h2 {
+    .category-label {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--green);
+      font-weight: bold;
+    }
+
+    /* FEATURED */
+
+    .featured-grid {
+      display: grid;
+      grid-template-columns: 1.25fr 1fr;
+      gap: 22px;
+    }
+
+    .featured-main .story-image {
+      min-height: 270px;
+      font-size: 78px;
+    }
+
+    .side-stories {
+      display: grid;
+      gap: 14px;
+    }
+
+    .side-story {
+      display: grid;
+      grid-template-columns: 115px 1fr;
+      gap: 14px;
+      align-items: center;
+      padding-bottom: 14px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .side-story .story-image {
+      min-height: 110px;
+      font-size: 39px;
+      border-radius: 6px;
+    }
+
+    .side-story h3 {
       font-family: Georgia, serif;
-      font-size: 35px;
-      margin: 0 0 15px;
+      font-size: 18px;
+      margin: 5px 0;
+      line-height: 1.3;
     }
 
-    .mission p {
-      max-width: 720px;
-      margin: auto;
-      color: #485b4e;
+    .side-story p {
+      font-size: 12px;
+      color: var(--muted);
+      margin: 0;
     }
+
+    /* FOOTER */
 
     .disclosure {
       background: var(--cream);
       border-left: 4px solid var(--green);
-      padding: 24px;
+      padding: 22px;
       font-size: 13px;
-      color: #58645c;
+      color: var(--muted);
     }
 
     .disclosure a {
       color: var(--green);
-      font-weight: bold;
       text-decoration: underline;
+      font-weight: bold;
     }
 
     footer {
       background: var(--dark);
       color: white;
-      padding: 55px 0 25px;
+      padding: 45px 0 20px;
     }
 
     .footer-grid {
       display: grid;
       grid-template-columns: 2fr 1fr 1fr;
-      gap: 35px;
+      gap: 28px;
     }
 
     footer h3 {
       font-family: Georgia, serif;
+      margin: 0 0 12px;
       font-size: 21px;
-      margin: 0 0 15px;
     }
 
     footer p {
-      color: #c5d6cb;
-      font-size: 14px;
+      color: #cad9cf;
+      font-size: 13px;
     }
 
     footer a {
       display: block;
-      font-size: 14px;
-      margin: 9px 0;
+      font-size: 13px;
+      margin: 8px 0;
     }
 
-    footer a:hover {
-      color: var(--gold);
-    }
+    footer a:hover { color: #e8bc70; }
 
     .copyright {
-      border-top: 1px solid #446454;
+      border-top: 1px solid #476756;
+      padding-top: 18px;
+      margin-top: 28px;
       text-align: center;
-      margin-top: 35px;
-      padding-top: 20px;
-      color: #c5d6cb;
+      color: #cad9cf;
       font-size: 12px;
     }
 
     @media (max-width: 900px) {
-      .trend-topics { grid-template-columns: repeat(3,minmax(0,1fr)); }
-      .featured-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .card-grid {
-        grid-template-columns: repeat(2, 1fr);
-      }
-
-      .category-grid {
-        grid-template-columns: repeat(2, 1fr);
-      }
-
-      .footer-grid {
-        grid-template-columns: 1fr 1fr;
-      }
+      .featured-grid { grid-template-columns: 1fr; }
+      .card-grid { grid-template-columns: repeat(2, 1fr); }
+      .footer-grid { grid-template-columns: 1fr 1fr; }
     }
 
     @media (max-width: 600px) {
-      .container {
-        width: calc(100% - 28px);
-      }
+      .nav { gap: 13px; }
+      .nav a { font-size: 10px; }
 
-      .nav {
-        gap: 13px;
-      }
+      .section { padding: 34px 0; }
 
-      .nav a {
-        font-size: 11px;
-      }
-
-      .section {
-        padding: 42px 0;
-      }
-
-      .trend-topics { grid-template-columns: repeat(2,minmax(0,1fr)); }
+      .trend-grid,
       .card-grid,
-      .category-grid,
       .footer-grid {
         grid-template-columns: 1fr;
       }
 
+      .trend-card { padding: 17px; }
+
+      .section-heading {
+        align-items: start;
+        flex-direction: column;
+      }
+
       .side-story {
-        grid-template-columns: 110px 1fr;
-        gap: 12px;
+        grid-template-columns: 95px 1fr;
       }
 
       .side-story .story-image {
-        min-height: 110px;
+        min-height: 95px;
       }
 
-      .side-story h3 {
-        font-size: 17px;
-      }
-
-      .featured-main .story-image {
-        min-height: 240px;
-      }
-
-      .section-heading {
-        flex-direction: column;
-        align-items: start;
-      }
+      .side-story h3 { font-size: 16px; }
     }
   </style>
 </head>
@@ -539,28 +502,23 @@
 <a href="#main" class="skip-link">Skip to content</a>
 
 <div class="top-strip">
-  SMARTER SHOPPING · HONEST GUIDES · BETTER DISCOVERIES
+  TRENDING STORIES · FRESH PERSPECTIVES · SMARTER DISCOVERIES
 </div>
 
-<header>
-  <div class="container masthead">
-    <a href="/" class="logo" aria-label="BrowseBloom homepage">
-      Browse<span>Bloom</span>
-    </a>
-
-    <div class="tagline">
-      Discover Better Products. Shop Smarter.
-    </div>
-  </div>
+<header class="header container">
+  <a href="/" class="logo" aria-label="BrowseBloom homepage">
+    Browse<span>Bloom.</span>
+  </a>
 </header>
 
 <div class="nav-wrap">
   <nav class="container nav" aria-label="Main navigation">
     <a href="/">Home</a>
-    <a href="#reviews">Product Reviews</a>
-    <a href="#shopping">Shopping Finds</a>
     <a href="#trending">Trending Now</a>
-    <a href="#categories">Categories</a>
+    <a href="#shopping">Shopping</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#home">Home & Kitchen</a>
+    <a href="#gifts">Gifts</a>
     <a href="about.html">About</a>
     <a href="contact.html">Contact</a>
   </nav>
@@ -568,73 +526,104 @@
 
 <main id="main">
 
-  <section class="intro container">
-    <h1>Discover Better Products. Shop Smarter.</h1>
-    <p>
-      Explore independent product reviews, practical
-      buying guides and thoughtful shopping ideas
-      to help you make more confident decisions.
-    </p>
+  <!-- AUTOMATIC GOOGLE TRENDS -->
+
+  <section class="section trending-section" id="trending">
+    <div class="container">
+
+      <div class="trending-heading">
+        <div class="eyebrow">THE DAILY EDIT · CANADA</div>
+        <h1>What's Trending Today?</h1>
+        <p>Discover what people are searching for right now.</p>
+      </div>
+
+      <div id="trending-list"
+           class="trend-grid"
+           aria-live="polite"
+           aria-label="Trending searches in Canada">
+
+        <div class="trend-status">
+          Loading the latest Canadian trends...
+        </div>
+
+      </div>
+
+      <div class="trend-footer">
+        <span id="trends-updated">Checking for updates...</span>
+        <a href="https://trends.google.com/trending?geo=CA"
+           target="_blank"
+           rel="noopener noreferrer">
+          Explore Google Trends ↗
+        </a>
+      </div>
+
+      <div class="category-pills">
+        <span class="category-pill">🍁 Canada</span>
+        <span class="category-pill">🤖 Technology</span>
+        <span class="category-pill">🎬 Entertainment</span>
+        <span class="category-pill">🏒 Sports</span>
+        <span class="category-pill">🛍️ Lifestyle</span>
+      </div>
+
+    </div>
   </section>
 
-  <!-- FEATURED ARTICLES -->
+  <!-- FEATURED SHOPPING GUIDES -->
 
   <section class="section container" id="shopping">
 
     <div class="section-heading">
       <h2>Featured Shopping Guides</h2>
-      <p>Helpful ideas for smarter purchases</p>
+      <p>Popular reads from BrowseBloom</p>
     </div>
 
     <div class="featured-grid">
 
-      <a class="featured-main" href="soundcore-q20i-review.html">
+      <a class="article-card featured-main"
+         href="soundcore-q20i-review.html">
+
         <div class="story-image" aria-hidden="true">🎧</div>
 
         <div class="story-content">
-          <div class="category-label">Featured Product Review</div>
-
-          <h2>Soundcore Q20i Wireless Headphones Review</h2>
-
+          <div class="category-label">Featured Review</div>
+          <h3>Soundcore Q20i Wireless Headphones Review</h3>
           <p>
-            Explore noise cancellation, battery life,
-            comfort and the features that matter
-            before buying these headphones.
+            Noise cancellation, comfort, battery life
+            and important features explained.
           </p>
-
           <span class="read-more">Read Review →</span>
         </div>
       </a>
 
       <div class="side-stories">
 
-        <a class="side-story" href="aeropress-original-review.html">
+        <a class="side-story"
+           href="aeropress-original-review.html">
           <div class="story-image" aria-hidden="true">☕</div>
-
           <div>
-            <div class="category-label">Coffee & Kitchen</div>
+            <div class="category-label">Coffee</div>
             <h3>AeroPress Original Coffee Maker Review</h3>
-            <p>Brewing features, cleaning and everyday usability.</p>
+            <p>Brewing, cleaning and usability.</p>
           </div>
         </a>
 
-        <a class="side-story" href="best-air-fryer-buying-guide.html">
+        <a class="side-story"
+           href="best-air-fryer-buying-guide.html">
           <div class="story-image" aria-hidden="true">🍟</div>
-
           <div>
-            <div class="category-label">Kitchen Appliances</div>
+            <div class="category-label">Kitchen</div>
             <h3>Air Fryer Buying Guide</h3>
-            <p>Understand sizes, features and cleaning.</p>
+            <p>Sizes, features and cleaning.</p>
           </div>
         </a>
 
-        <a class="side-story" href="gift-ideas-under-50-guide.html">
+        <a class="side-story"
+           href="gift-ideas-under-50-guide.html">
           <div class="story-image" aria-hidden="true">🎁</div>
-
           <div>
-            <div class="category-label">Gift Guides</div>
+            <div class="category-label">Gifts</div>
             <h3>Thoughtful Gift Ideas Under $50</h3>
-            <p>Practical ideas for different interests and budgets.</p>
+            <p>Ideas for different budgets.</p>
           </div>
         </a>
 
@@ -642,114 +631,46 @@
     </div>
   </section>
 
-  <!-- TRENDING NOW: Add verified articles here as they are published -->
-  <section class="section trending-section" id="trending" aria-labelledby="trending-heading">
-    <div class="container">
-      <div class="section-heading">
-        <h2 id="trending-heading">Trending Now &amp; Discover</h2>
-        <p>What people are searching for</p>
-      </div>
-      <p class="trending-intro">
-        Explore the stories behind popular searches, new technology,
-        Canadian developments, entertainment, sports and shopping trends.
-        We focus on clear explanations, useful context and reliable sources.
-      </p>
-      <div class="trend-topics" aria-label="Topics we cover">
-        <div class="trend-topic"><span aria-hidden="true">🍁</span><strong>Canada News</strong></div>
-        <div class="trend-topic"><span aria-hidden="true">📱</span><strong>Technology</strong></div>
-        <div class="trend-topic"><span aria-hidden="true">🎬</span><strong>Entertainment</strong></div>
-        <div class="trend-topic"><span aria-hidden="true">🏒</span><strong>Sports</strong></div>
-        <div class="trend-topic"><span aria-hidden="true">🛍️</span><strong>Shopping Trends</strong></div>
-      </div>
-      <div class="trending-empty">
-        <h3>Fresh stories are on the way</h3>
-        <p>We're preparing our first researched trending articles. Meanwhile, explore our existing product guides and shopping discoveries.</p>
-        <a href="#reviews">Browse our latest buying guides →</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- CATEGORIES -->
-
-  <section class="section categories" id="categories">
-    <div class="container">
-
-      <div class="section-heading">
-        <h2>Explore by Category</h2>
-        <p>Choose what interests you</p>
-      </div>
-
-      <div class="category-grid">
-
-        <a class="category-box" href="#tech">
-          <div class="symbol">🎧</div>
-          <h3>Tech & Gadgets</h3>
-          <p>Headphones, chargers and accessories.</p>
-        </a>
-
-        <a class="category-box" href="#home">
-          <div class="symbol">🏡</div>
-          <h3>Home & Kitchen</h3>
-          <p>Appliances, organization and everyday essentials.</p>
-        </a>
-
-        <a class="category-box" href="#gifts">
-          <div class="symbol">🎁</div>
-          <h3>Gift Guides</h3>
-          <p>Ideas for different people and budgets.</p>
-        </a>
-
-        <a class="category-box" href="#lifestyle">
-          <div class="symbol">🛍️</div>
-          <h3>Lifestyle & Travel</h3>
-          <p>Personal care, travel and daily living.</p>
-        </a>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- TECH ARTICLES -->
+  <!-- TECH & GADGETS -->
 
   <section class="section container" id="reviews">
 
     <div class="section-heading">
-      <h2>Product Reviews & Buying Guides</h2>
-      <p>Research-based shopping advice</p>
+      <h2>Tech & Gadgets</h2>
+      <p>Reviews and buying advice</p>
     </div>
 
-    <div id="tech" class="category-label">
-      Tech & Gadgets
-    </div>
+    <div class="card-grid">
 
-    <div class="card-grid" style="margin-top:18px">
-
-      <a class="article-card" href="soundcore-q20i-review.html">
+      <a class="article-card"
+         href="soundcore-q20i-review.html">
         <div class="story-image" aria-hidden="true">🎧</div>
         <div class="story-content">
-          <div class="category-label">Product Review</div>
+          <div class="category-label">Review</div>
           <h3>Soundcore Q20i Headphones Review</h3>
-          <p>Noise cancellation, comfort and battery features.</p>
+          <p>Sound, comfort and battery features.</p>
           <span class="read-more">Read Article →</span>
         </div>
       </a>
 
-      <a class="article-card" href="best-wireless-earbuds-buying-guide.html">
+      <a class="article-card"
+         href="best-wireless-earbuds-buying-guide.html">
         <div class="story-image" aria-hidden="true">🎵</div>
         <div class="story-content">
           <div class="category-label">Buying Guide</div>
           <h3>How to Choose Wireless Earbuds</h3>
-          <p>Compare comfort, battery life and useful features.</p>
+          <p>Comfort, battery life and useful features.</p>
           <span class="read-more">Read Article →</span>
         </div>
       </a>
 
-      <a class="article-card" href="portable-charger-buying-guide.html">
+      <a class="article-card"
+         href="portable-charger-buying-guide.html">
         <div class="story-image" aria-hidden="true">🔋</div>
         <div class="story-content">
           <div class="category-label">Buying Guide</div>
           <h3>Portable Charger Buying Guide</h3>
-          <p>Understand capacity, charging speed and safety.</p>
+          <p>Capacity, charging speed and safety.</p>
           <span class="read-more">Read Article →</span>
         </div>
       </a>
@@ -763,67 +684,73 @@
 
     <div class="section-heading">
       <h2>Home & Kitchen</h2>
-      <p>Practical products for everyday living</p>
+      <p>Practical everyday products</p>
     </div>
 
     <div class="card-grid">
 
-      <a class="article-card" href="aeropress-original-review.html">
+      <a class="article-card"
+         href="aeropress-original-review.html">
         <div class="story-image" aria-hidden="true">☕</div>
         <div class="story-content">
-          <div class="category-label">Product Review</div>
+          <div class="category-label">Coffee</div>
           <h3>AeroPress Original Coffee Maker Review</h3>
-          <p>Learn about brewing, cleaning and usability.</p>
+          <p>Brewing, cleaning and usability.</p>
           <span class="read-more">Read Article →</span>
         </div>
       </a>
 
-      <a class="article-card" href="best-air-fryer-buying-guide.html">
+      <a class="article-card"
+         href="best-air-fryer-buying-guide.html">
         <div class="story-image" aria-hidden="true">🍟</div>
         <div class="story-content">
-          <div class="category-label">Buying Guide</div>
+          <div class="category-label">Kitchen</div>
           <h3>Air Fryer Buying Guide</h3>
-          <p>Compare basket sizes, controls and cleaning.</p>
+          <p>Sizes, controls and maintenance.</p>
           <span class="read-more">Read Article →</span>
         </div>
       </a>
 
-      <a class="article-card" href="coffee-grinder-buying-guide.html">
+      <a class="article-card"
+         href="coffee-grinder-buying-guide.html">
         <div class="story-image" aria-hidden="true">🫘</div>
         <div class="story-content">
-          <div class="category-label">Buying Guide</div>
+          <div class="category-label">Coffee</div>
           <h3>Coffee Grinder Buying Guide</h3>
-          <p>Burr versus blade grinders and grind settings.</p>
+          <p>Burr versus blade grinders.</p>
           <span class="read-more">Read Article →</span>
         </div>
       </a>
 
-      <a class="article-card" href="home-organization-bins-guide.html">
+      <a class="article-card"
+         href="home-organization-bins-guide.html">
         <div class="story-image" aria-hidden="true">📦</div>
         <div class="story-content">
-          <div class="category-label">Home Organization</div>
+          <div class="category-label">Organization</div>
           <h3>Storage Bins for Small Spaces</h3>
-          <p>Find the right sizes, materials and storage styles.</p>
+          <p>Sizes, materials and storage styles.</p>
           <span class="read-more">Read Article →</span>
         </div>
       </a>
 
-      <a class="article-card" href="robot-vacuum-buying-guide.html">
+      <a class="article-card"
+         href="robot-vacuum-buying-guide.html">
         <div class="story-image" aria-hidden="true">🤖</div>
         <div class="story-content">
-          <div class="category-label">Home Appliances</div>
+          <div class="category-label">Appliances</div>
           <h3>Robot Vacuum Buying Guide</h3>
-          <p>Navigation, floor types and maintenance explained.</p>
+          <p>Navigation and floor types.</p>
           <span class="read-more">Read Article →</span>
         </div>
       </a>
 
-      <a class="article-card" href="best-desk-lamp-buying-guide.html">
+      <a class="article-card"
+         href="best-desk-lamp-buying-guide.html">
         <div class="story-image" aria-hidden="true">💡</div>
         <div class="story-content">
           <div class="category-label">Home Office</div>
-          <h3>Best Desk Lamp Features</h3>
-          <p>Lighting, adjustability and glare considerations.</p>
+          <h3>Desk Lamp Buying Guide</h3>
+          <p>Lighting, adjustability and glare.</p>
           <span class="read-more">Read Article →</span>
         </div>
       </a>
@@ -831,23 +758,24 @@
     </div>
   </section>
 
-  <!-- GIFTS -->
+  <!-- GIFT GUIDES -->
 
   <section class="section container" id="gifts">
 
     <div class="section-heading">
       <h2>Gift Guides</h2>
-      <p>Thoughtful shopping inspiration</p>
+      <p>Ideas for every occasion</p>
     </div>
 
     <div class="card-grid">
 
-      <a class="article-card" href="gift-ideas-under-50-guide.html">
+      <a class="article-card"
+         href="gift-ideas-under-50-guide.html">
         <div class="story-image" aria-hidden="true">🎁</div>
         <div class="story-content">
           <div class="category-label">Gift Ideas</div>
           <h3>Thoughtful Gift Ideas Under $50</h3>
-          <p>Gift inspiration for different people and interests.</p>
+          <p>Useful ideas for different interests.</p>
           <span class="read-more">Read Article →</span>
         </div>
       </a>
@@ -861,27 +789,29 @@
 
     <div class="section-heading">
       <h2>Lifestyle & Travel</h2>
-      <p>Helpful guides for everyday life</p>
+      <p>Helpful everyday guides</p>
     </div>
 
     <div class="card-grid">
 
-      <a class="article-card" href="electric-toothbrush-buying-guide.html">
+      <a class="article-card"
+         href="electric-toothbrush-buying-guide.html">
         <div class="story-image" aria-hidden="true">🪥</div>
         <div class="story-content">
           <div class="category-label">Personal Care</div>
           <h3>Electric Toothbrush Buying Guide</h3>
-          <p>Understand timers, brush heads and useful features.</p>
+          <p>Timers, brush heads and features.</p>
           <span class="read-more">Read Article →</span>
         </div>
       </a>
 
-      <a class="article-card" href="carry-on-backpack-buying-guide.html">
+      <a class="article-card"
+         href="carry-on-backpack-buying-guide.html">
         <div class="story-image" aria-hidden="true">🎒</div>
         <div class="story-content">
           <div class="category-label">Travel</div>
           <h3>Carry-On Backpack Buying Guide</h3>
-          <p>Compare comfort, size, storage and airline rules.</p>
+          <p>Comfort, storage and airline rules.</p>
           <span class="read-more">Read Article →</span>
         </div>
       </a>
@@ -889,38 +819,27 @@
     </div>
   </section>
 
-  <!-- ABOUT -->
-
-  <section class="mission">
-    <div class="container">
-      <h2>Shopping Advice Made Simpler</h2>
-
-      <p>
-        BrowseBloom is an independent shopping discovery
-        and product guide website. We help readers
-        compare useful features, understand buying options
-        and discover products that fit their needs and budgets.
-      </p>
-    </div>
-  </section>
-
-  <!-- DISCLOSURE -->
+  <!-- AFFILIATE DISCLOSURE -->
 
   <section class="section container">
     <div class="disclosure">
       <strong>Affiliate Disclosure:</strong>
       BrowseBloom may earn commissions from qualifying
-      purchases made through affiliate links, at no
-      additional cost to readers. Our buying guides are
-      research-based unless hands-on testing is explicitly
-      stated.
+      purchases through affiliate links, at no additional
+      cost to readers.
+
+      Our buying guides are research-based unless
+      hands-on testing is explicitly stated.
+
       <a href="affiliate-disclosure.html">
-        Read our full affiliate disclosure.
+        Read our affiliate disclosure.
       </a>
     </div>
   </section>
 
 </main>
+
+<!-- FOOTER -->
 
 <footer>
   <div class="container">
@@ -928,21 +847,22 @@
     <div class="footer-grid">
 
       <div>
-        <h3>BrowseBloom</h3>
-        <p>Discover Better Products. Shop Smarter.</p>
+        <h3>BrowseBloom.</h3>
+        <p>Stories. Ideas. Discoveries.</p>
         <p>
-          Independent product reviews, shopping discoveries
-          and practical buying guides.
+          Trending topics, useful guides and smarter
+          shopping discoveries.
         </p>
       </div>
 
       <div>
         <h3>Explore</h3>
-        <a href="#reviews">Product Reviews</a>
-        <a href="#shopping">Shopping Finds</a>
         <a href="#trending">Trending Now</a>
-        <a href="#categories">Categories</a>
+        <a href="#shopping">Shopping Guides</a>
+        <a href="#reviews">Product Reviews</a>
+        <a href="#home">Home & Kitchen</a>
         <a href="#gifts">Gift Guides</a>
+        <a href="#lifestyle">Lifestyle & Travel</a>
       </div>
 
       <div>
@@ -966,9 +886,270 @@
   </div>
 </footer>
 
+<!-- LIVE GOOGLE TRENDS READER -->
+
 <script>
+(function () {
+  "use strict";
+
+  const list = document.getElementById("trending-list");
+  const updated = document.getElementById("trends-updated");
+
   document.getElementById("year").textContent =
     new Date().getFullYear();
+
+  function getItems(data) {
+    if (Array.isArray(data)) return data;
+
+    if (!data || typeof data !== "object") return [];
+
+    const possibleKeys = [
+      "trends",
+      "topics",
+      "items",
+      "data",
+      "results",
+      "trending_searches",
+      "trendingSearches"
+    ];
+
+    for (const key of possibleKeys) {
+      if (Array.isArray(data[key])) {
+        return data[key];
+      }
+
+      if (data[key] && typeof data[key] === "object") {
+        const nested = getItems(data[key]);
+        if (nested.length) return nested;
+      }
+    }
+
+    return [];
+  }
+
+  function getTitle(item) {
+    if (typeof item === "string") return item;
+
+    if (!item || typeof item !== "object") return "";
+
+    const title =
+      item.title ||
+      item.query ||
+      item.keyword ||
+      item.name ||
+      item.topic ||
+      item.search_term ||
+      item.searchTerm ||
+      item.trend;
+
+    if (typeof title === "string") return title;
+
+    if (title && typeof title === "object") {
+      return title.title || title.name || title.query || "";
+    }
+
+    return "";
+  }
+
+  function getTraffic(item) {
+    if (!item || typeof item !== "object") return "";
+
+    const value =
+      item.approx_traffic ||
+      item.approxTraffic ||
+      item.traffic ||
+      item.search_volume ||
+      item.searchVolume ||
+      item.volume ||
+      "";
+
+    return String(value || "");
+  }
+
+  function getDate(data) {
+    if (!data || typeof data !== "object" || Array.isArray(data)) {
+      return "";
+    }
+
+    return (
+      data.updated_at ||
+      data.updatedAt ||
+      data.fetched_at ||
+      data.generated_at ||
+      data.last_updated ||
+      ""
+    );
+  }
+
+  function safeLink(item, title) {
+    const fallback =
+      "https://trends.google.com/trending?geo=CA";
+
+    if (item && typeof item === "object") {
+      const candidate =
+        item.url ||
+        item.link ||
+        item.trends_url ||
+        item.google_trends_url;
+
+      if (typeof candidate === "string") {
+        try {
+          const url = new URL(candidate);
+
+          if (
+            url.protocol === "https:" &&
+            (
+              url.hostname === "trends.google.com" ||
+              url.hostname === "www.google.com"
+            )
+          ) {
+            return url.href;
+          }
+        } catch (error) {
+          // Ignore invalid URLs.
+        }
+      }
+    }
+
+    return (
+      "https://trends.google.com/trends/explore" +
+      "?geo=CA&q=" +
+      encodeURIComponent(title)
+    );
+  }
+
+  function showStatus(message) {
+    list.replaceChildren();
+
+    const box = document.createElement("div");
+    box.className = "trend-status";
+    box.textContent = message;
+
+    list.appendChild(box);
+  }
+
+  function renderTrends(data) {
+    const items = getItems(data);
+    const seen = new Set();
+
+    const trends = items
+      .map(item => ({
+        original: item,
+        title: String(getTitle(item)).trim(),
+        traffic: getTraffic(item)
+      }))
+      .filter(item => {
+        const key = item.title.toLowerCase();
+
+        if (!key || seen.has(key)) return false;
+
+        seen.add(key);
+        return true;
+      })
+      .slice(0, 10);
+
+    if (!trends.length) {
+      showStatus(
+        "No trending topics are available right now. Please check back soon."
+      );
+      updated.textContent = "Waiting for the next update";
+      return;
+    }
+
+    list.replaceChildren();
+
+    trends.forEach((trend, index) => {
+      const card = document.createElement("a");
+      card.className = "trend-card";
+      card.href = safeLink(trend.original, trend.title);
+      card.target = "_blank";
+      card.rel = "noopener noreferrer";
+
+      const number = document.createElement("div");
+      number.className = "trend-number";
+      number.textContent = String(index + 1).padStart(2, "0");
+
+      const content = document.createElement("div");
+      content.className = "trend-content";
+
+      const label = document.createElement("div");
+      label.className = "eyebrow";
+      label.textContent = "Trending Search";
+
+      const heading = document.createElement("h3");
+      heading.textContent = trend.title;
+
+      content.appendChild(label);
+      content.appendChild(heading);
+
+      if (trend.traffic) {
+        const meta = document.createElement("div");
+        meta.className = "trend-meta";
+        meta.textContent = trend.traffic + " searches";
+        content.appendChild(meta);
+      }
+
+      const arrow = document.createElement("span");
+      arrow.className = "trend-arrow";
+      arrow.textContent = "↗";
+      arrow.setAttribute("aria-hidden", "true");
+
+      card.appendChild(number);
+      card.appendChild(content);
+      card.appendChild(arrow);
+
+      list.appendChild(card);
+    });
+
+    const timestamp = getDate(data);
+
+    if (timestamp) {
+      const parsed = new Date(timestamp);
+
+      updated.textContent = isNaN(parsed.getTime())
+        ? "Source: Google Trends Canada"
+        : "Updated: " + parsed.toLocaleString("en-CA", {
+            dateStyle: "medium",
+            timeStyle: "short"
+          });
+    } else {
+      updated.textContent =
+        "Source: Google Trends Canada · Automatically refreshed";
+    }
+  }
+
+  async function loadTrends() {
+    try {
+      const response = await fetch(
+        "/trends.json",
+        { cache: "no-store" }
+      );
+
+      if (!response.ok) {
+        throw new Error("HTTP " + response.status);
+      }
+
+      const data = await response.json();
+      renderTrends(data);
+
+    } catch (error) {
+      console.error("Unable to load trends:", error);
+
+      showStatus(
+        "Trending searches are temporarily unavailable. " +
+        "Please visit again shortly."
+      );
+
+      updated.textContent =
+        "Automatic trend feed temporarily unavailable";
+    }
+  }
+
+  loadTrends();
+
+  // Refresh the visible list while the page stays open.
+  setInterval(loadTrends, 15 * 60 * 1000);
+})();
 </script>
 
 </body>
