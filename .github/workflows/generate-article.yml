@@ -1,0 +1,39 @@
+
+name: Generate One BrowseBloom Article Draft
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-article:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Generate one article draft
+        run: |
+          python scripts/generate_articles.py
+
+      - name: Commit article draft
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add drafts/
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Add BrowseBloom test article draft"
+            git push
+          else
+            echo "No new article draft to commit"
+          fi
