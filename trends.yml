@@ -1,0 +1,28 @@
+name: Collect Canadian Google Trends
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 */3 * * *'
+permissions:
+  contents: write
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Fetch trending topics
+        run: python scripts/fetch_trends.py
+      - name: Commit updated trends
+        run: |
+          if git diff --quiet -- trends.json && [ -f trends.json ]; then
+            echo 'No changes to commit'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add trends.json
+          git commit -m 'Update Canada trending topics'
+          git push
