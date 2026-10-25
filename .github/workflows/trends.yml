@@ -15,14 +15,16 @@ jobs:
           python-version: '3.12'
       - name: Fetch trending topics
         run: python scripts/fetch_trends.py
+     
       - name: Commit updated trends
         run: |
-          if git diff --quiet -- trends.json && [ -f trends.json ]; then
-            echo 'No changes to commit'
-            exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f trends.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update Google Trends data"
+            git push
+          else
+            echo "No changes to commit"
           fi
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add trends.json
-          git commit -m 'Update Canada trending topics'
-          git push
+
