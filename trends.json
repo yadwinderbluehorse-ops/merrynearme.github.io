@@ -1,7 +1,47 @@
 {
   "region": "CA",
-  "updated_at": "2026-10-26T14:52:10.496697+00:00",
+  "updated_at": "2026-10-26T16:09:27.194355+00:00",
   "topics": [
+    {
+      "topic": "trump canada",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Mon, 26 Oct 2026 09:00:00 -0700"
+    },
+    {
+      "topic": "anthony bourdain",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Mon, 26 Oct 2026 09:00:00 -0700"
+    },
+    {
+      "topic": "rizespor vs trabzonspor",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Mon, 26 Oct 2026 08:40:00 -0700"
+    },
+    {
+      "topic": "taux directeur",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Mon, 26 Oct 2026 08:20:00 -0700"
+    },
+    {
+      "topic": "jawn halloweek",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Mon, 26 Oct 2026 08:20:00 -0700"
+    },
+    {
+      "topic": "weather storm",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Mon, 26 Oct 2026 08:10:00 -0700"
+    },
+    {
+      "topic": "school board trustee candidates",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Mon, 26 Oct 2026 07:50:00 -0700"
+    },
+    {
+      "topic": "elections toronto",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Mon, 26 Oct 2026 07:40:00 -0700"
+    },
     {
       "topic": "ai bubble",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
@@ -11,46 +51,6 @@
       "topic": "basel open",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
       "published": "Mon, 26 Oct 2026 07:30:00 -0700"
-    },
-    {
-      "topic": "midterm elections",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Mon, 26 Oct 2026 07:30:00 -0700"
-    },
-    {
-      "topic": "ward 4 candidates",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Mon, 26 Oct 2026 07:20:00 -0700"
-    },
-    {
-      "topic": "desjardins",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Mon, 26 Oct 2026 07:10:00 -0700"
-    },
-    {
-      "topic": "vegemite",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Mon, 26 Oct 2026 07:10:00 -0700"
-    },
-    {
-      "topic": "remembrance day",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Mon, 26 Oct 2026 07:10:00 -0700"
-    },
-    {
-      "topic": "goog stock",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Mon, 26 Oct 2026 07:10:00 -0700"
-    },
-    {
-      "topic": "alvin tedjo",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Mon, 26 Oct 2026 07:00:00 -0700"
-    },
-    {
-      "topic": "yahoo finance canada",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Mon, 26 Oct 2026 07:00:00 -0700"
     }
   ]
 }
