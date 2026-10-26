@@ -1,56 +1,56 @@
 {
   "region": "CA",
-  "updated_at": "2026-10-26T06:54:08.232347+00:00",
+  "updated_at": "2026-10-26T09:51:19.424673+00:00",
   "topics": [
+    {
+      "topic": "world news",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Mon, 26 Oct 2026 02:30:00 -0700"
+    },
+    {
+      "topic": "véhicule",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Mon, 26 Oct 2026 02:20:00 -0700"
+    },
+    {
+      "topic": "lottery",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Mon, 26 Oct 2026 02:10:00 -0700"
+    },
+    {
+      "topic": "dylan larkin",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Mon, 26 Oct 2026 02:00:00 -0700"
+    },
+    {
+      "topic": "black friday 2026",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Mon, 26 Oct 2026 02:00:00 -0700"
+    },
+    {
+      "topic": "alexandra eala",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Mon, 26 Oct 2026 01:30:00 -0700"
+    },
+    {
+      "topic": "komanche",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Mon, 26 Oct 2026 01:00:00 -0700"
+    },
+    {
+      "topic": "movie times",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Mon, 26 Oct 2026 00:10:00 -0700"
+    },
+    {
+      "topic": "xbox",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Sun, 25 Oct 2026 23:50:00 -0700"
+    },
     {
       "topic": "borr drilling rig sinks",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
       "published": "Sun, 25 Oct 2026 23:00:00 -0700"
-    },
-    {
-      "topic": "ambulance",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Sun, 25 Oct 2026 21:50:00 -0700"
-    },
-    {
-      "topic": "landon dupont",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Sun, 25 Oct 2026 21:40:00 -0700"
-    },
-    {
-      "topic": "brock boeser",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Sun, 25 Oct 2026 21:30:00 -0700"
-    },
-    {
-      "topic": "kirill kaprizov",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Sun, 25 Oct 2026 21:30:00 -0700"
-    },
-    {
-      "topic": "maxim v. shabanov",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Sun, 25 Oct 2026 20:50:00 -0700"
-    },
-    {
-      "topic": "ty jerome",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Sun, 25 Oct 2026 20:40:00 -0700"
-    },
-    {
-      "topic": "bill maher",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Sun, 25 Oct 2026 20:40:00 -0700"
-    },
-    {
-      "topic": "calvin pickard",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Sun, 25 Oct 2026 20:40:00 -0700"
-    },
-    {
-      "topic": "travis kelce",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Sun, 25 Oct 2026 20:30:00 -0700"
     }
   ]
 }
