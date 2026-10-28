@@ -1,7 +1,37 @@
 {
   "region": "CA",
-  "updated_at": "2026-10-28T07:00:00.295301+00:00",
+  "updated_at": "2026-10-28T09:55:09.435818+00:00",
   "topics": [
+    {
+      "topic": "canadien de montreal",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Wed, 28 Oct 2026 02:40:00 -0700"
+    },
+    {
+      "topic": "bbc news",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Wed, 28 Oct 2026 02:40:00 -0700"
+    },
+    {
+      "topic": "fox news",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Wed, 28 Oct 2026 02:40:00 -0700"
+    },
+    {
+      "topic": "japan open",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Wed, 28 Oct 2026 01:40:00 -0700"
+    },
+    {
+      "topic": "hm",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Wed, 28 Oct 2026 01:10:00 -0700"
+    },
+    {
+      "topic": "pink",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Wed, 28 Oct 2026 00:50:00 -0700"
+    },
     {
       "topic": "austin reaves",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
@@ -18,39 +48,9 @@
       "published": "Tue, 27 Oct 2026 22:10:00 -0700"
     },
     {
-      "topic": "elias pettersson",
+      "topic": "jrue holiday",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
       "published": "Tue, 27 Oct 2026 22:00:00 -0700"
-    },
-    {
-      "topic": "sandro mamukelashvili",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Tue, 27 Oct 2026 21:50:00 -0700"
-    },
-    {
-      "topic": "shane drohan",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Tue, 27 Oct 2026 21:40:00 -0700"
-    },
-    {
-      "topic": "junior caminero",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Tue, 27 Oct 2026 21:30:00 -0700"
-    },
-    {
-      "topic": "butter recall",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Tue, 27 Oct 2026 21:20:00 -0700"
-    },
-    {
-      "topic": "jio ipo",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Tue, 27 Oct 2026 21:20:00 -0700"
-    },
-    {
-      "topic": "victoria weather",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Tue, 27 Oct 2026 21:20:00 -0700"
     }
   ]
 }
