@@ -1,19 +1,39 @@
 {
   "region": "CA",
-  "updated_at": "2026-10-29T03:53:05.619467+00:00",
+  "updated_at": "2026-10-29T07:01:32.109638+00:00",
   "topics": [
+    {
+      "topic": "weil law firm",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Wed, 28 Oct 2026 23:30:00 -0700"
+    },
+    {
+      "topic": "minimum wage show",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Wed, 28 Oct 2026 21:40:00 -0700"
+    },
+    {
+      "topic": "emma roberts",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Wed, 28 Oct 2026 21:30:00 -0700"
+    },
+    {
+      "topic": "gavin newsom",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Wed, 28 Oct 2026 21:20:00 -0700"
+    },
+    {
+      "topic": "ajay mitchell",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Wed, 28 Oct 2026 21:00:00 -0700"
+    },
     {
       "topic": "daniel vogelbach",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
       "published": "Wed, 28 Oct 2026 20:40:00 -0700"
     },
     {
-      "topic": "leafs",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Wed, 28 Oct 2026 20:30:00 -0700"
-    },
-    {
-      "topic": "mark attanasio",
+      "topic": "bryan adams song lake ontario",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
       "published": "Wed, 28 Oct 2026 20:30:00 -0700"
     },
@@ -28,29 +48,9 @@
       "published": "Wed, 28 Oct 2026 20:30:00 -0700"
     },
     {
-      "topic": "sal frelick",
+      "topic": "mark attanasio",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
       "published": "Wed, 28 Oct 2026 20:30:00 -0700"
-    },
-    {
-      "topic": "oilers lines",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Wed, 28 Oct 2026 20:30:00 -0700"
-    },
-    {
-      "topic": "mlb",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Wed, 28 Oct 2026 20:20:00 -0700"
-    },
-    {
-      "topic": "willson contreras",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Wed, 28 Oct 2026 20:20:00 -0700"
-    },
-    {
-      "topic": "kasperi kapanen",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Wed, 28 Oct 2026 20:20:00 -0700"
     }
   ]
 }
