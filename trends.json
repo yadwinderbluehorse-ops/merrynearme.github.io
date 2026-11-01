@@ -1,21 +1,36 @@
 {
   "region": "CA",
-  "updated_at": "2026-11-01T07:02:32.968335+00:00",
+  "updated_at": "2026-11-01T09:50:12.202324+00:00",
   "topics": [
     {
-      "topic": "india national cricket team vs new zealand national cricket team match scorecard",
+      "topic": "gas prices",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Sat, 31 Oct 2026 23:50:00 -0700"
+      "published": "Sun, 1 Nov 2026 01:20:00 -0700"
     },
     {
-      "topic": "aus vs afg",
+      "topic": "australia vs afghanistan",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Sat, 31 Oct 2026 23:50:00 -0700"
+      "published": "Sun, 1 Nov 2026 00:50:00 -0700"
     },
     {
-      "topic": "scotiabank",
+      "topic": "pizza near me",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Sat, 31 Oct 2026 23:40:00 -0700"
+      "published": "Sun, 1 Nov 2026 00:30:00 -0700"
+    },
+    {
+      "topic": "ind vs nz",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Sun, 1 Nov 2026 00:10:00 -0700"
+    },
+    {
+      "topic": "india vs new zealand",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Sun, 1 Nov 2026 00:10:00 -0700"
+    },
+    {
+      "topic": "pakistan vs oman",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Sun, 1 Nov 2026 00:00:00 -0700"
     },
     {
       "topic": "alberta time",
@@ -28,7 +43,7 @@
       "published": "Sat, 31 Oct 2026 23:40:00 -0700"
     },
     {
-      "topic": "darius acuff",
+      "topic": "scotiabank",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
       "published": "Sat, 31 Oct 2026 23:40:00 -0700"
     },
@@ -36,21 +51,6 @@
       "topic": "royal bank",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
       "published": "Sat, 31 Oct 2026 23:30:00 -0700"
-    },
-    {
-      "topic": "rbc",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Sat, 31 Oct 2026 23:00:00 -0700"
-    },
-    {
-      "topic": "canada",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Sat, 31 Oct 2026 22:50:00 -0700"
-    },
-    {
-      "topic": "a",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Sat, 31 Oct 2026 22:50:00 -0700"
     }
   ]
 }
