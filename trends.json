@@ -1,7 +1,37 @@
 {
   "region": "CA",
-  "updated_at": "2026-11-02T07:31:52.076616+00:00",
+  "updated_at": "2026-11-02T10:12:53.349809+00:00",
   "topics": [
+    {
+      "topic": "donald trump iran war",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Mon, 2 Nov 2026 02:00:00 -0800"
+    },
+    {
+      "topic": "stock market news",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Mon, 2 Nov 2026 01:50:00 -0800"
+    },
+    {
+      "topic": "movie times",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Mon, 2 Nov 2026 00:40:00 -0800"
+    },
+    {
+      "topic": "test",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Mon, 2 Nov 2026 00:20:00 -0800"
+    },
+    {
+      "topic": "gas prices",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Mon, 2 Nov 2026 00:20:00 -0800"
+    },
+    {
+      "topic": "bet 365",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Sun, 1 Nov 2026 23:40:00 -0800"
+    },
     {
       "topic": "nasa swift observatory reentering earth",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
@@ -21,36 +51,6 @@
       "topic": "de'anthony melton",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
       "published": "Sun, 1 Nov 2026 20:40:00 -0800"
-    },
-    {
-      "topic": "treylon burks",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Sun, 1 Nov 2026 20:40:00 -0800"
-    },
-    {
-      "topic": "the elder scrolls",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Sun, 1 Nov 2026 20:30:00 -0800"
-    },
-    {
-      "topic": "restaurant",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Sun, 1 Nov 2026 20:20:00 -0800"
-    },
-    {
-      "topic": "bronny james",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Sun, 1 Nov 2026 20:20:00 -0800"
-    },
-    {
-      "topic": "golden state warriors",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Sun, 1 Nov 2026 20:20:00 -0800"
-    },
-    {
-      "topic": "roger mcqueen",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Sun, 1 Nov 2026 20:20:00 -0800"
     }
   ]
 }
