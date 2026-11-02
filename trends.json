@@ -1,56 +1,56 @@
 {
   "region": "CA",
-  "updated_at": "2026-11-02T13:13:46.050247+00:00",
+  "updated_at": "2026-11-02T16:05:58.617608+00:00",
   "topics": [
     {
-      "topic": "lindsay clancy",
+      "topic": "stock markets",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Mon, 2 Nov 2026 04:20:00 -0800"
+      "published": "Mon, 2 Nov 2026 07:50:00 -0800"
     },
     {
-      "topic": "ctv news winnipeg",
+      "topic": "la tribune",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Mon, 2 Nov 2026 04:10:00 -0800"
+      "published": "Mon, 2 Nov 2026 07:50:00 -0800"
     },
     {
-      "topic": "ao3 downtime",
+      "topic": "dolph lundgren",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Mon, 2 Nov 2026 04:00:00 -0800"
+      "published": "Mon, 2 Nov 2026 07:40:00 -0800"
     },
     {
-      "topic": "lapresse",
+      "topic": "nasdaq index",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Mon, 2 Nov 2026 04:00:00 -0800"
+      "published": "Mon, 2 Nov 2026 07:20:00 -0800"
     },
     {
-      "topic": "sainte-thérèse",
+      "topic": "apple stock",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Mon, 2 Nov 2026 03:50:00 -0800"
+      "published": "Mon, 2 Nov 2026 07:10:00 -0800"
     },
     {
-      "topic": "horoscope today",
+      "topic": "tsx",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Mon, 2 Nov 2026 03:40:00 -0800"
+      "published": "Mon, 2 Nov 2026 07:10:00 -0800"
     },
     {
-      "topic": "guardian",
+      "topic": "qqq",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Mon, 2 Nov 2026 03:40:00 -0800"
+      "published": "Mon, 2 Nov 2026 07:10:00 -0800"
     },
     {
-      "topic": "air transat",
+      "topic": "google stock price",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Mon, 2 Nov 2026 03:30:00 -0800"
+      "published": "Mon, 2 Nov 2026 07:10:00 -0800"
     },
     {
-      "topic": "maroc",
+      "topic": "sp500",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Mon, 2 Nov 2026 03:30:00 -0800"
+      "published": "Mon, 2 Nov 2026 07:00:00 -0800"
     },
     {
-      "topic": "oman vs netherlands",
+      "topic": "osap",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Mon, 2 Nov 2026 03:30:00 -0800"
+      "published": "Mon, 2 Nov 2026 07:00:00 -0800"
     }
   ]
 }
