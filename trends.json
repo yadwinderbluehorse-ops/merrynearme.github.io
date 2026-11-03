@@ -1,7 +1,42 @@
 {
   "region": "CA",
-  "updated_at": "2026-11-03T07:16:02.159508+00:00",
+  "updated_at": "2026-11-03T09:59:05.777028+00:00",
   "topics": [
+    {
+      "topic": "stock market today",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Tue, 3 Nov 2026 01:20:00 -0800"
+    },
+    {
+      "topic": "gas prices",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Tue, 3 Nov 2026 00:20:00 -0800"
+    },
+    {
+      "topic": "movie times",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Tue, 3 Nov 2026 00:10:00 -0800"
+    },
+    {
+      "topic": "coach",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Tue, 3 Nov 2026 00:10:00 -0800"
+    },
+    {
+      "topic": "marathon",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Tue, 3 Nov 2026 00:00:00 -0800"
+    },
+    {
+      "topic": "ps5",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Mon, 2 Nov 2026 23:40:00 -0800"
+    },
+    {
+      "topic": "the new york times",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Mon, 2 Nov 2026 23:10:00 -0800"
+    },
     {
       "topic": "ps5 pro",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
@@ -13,44 +48,9 @@
       "published": "Mon, 2 Nov 2026 22:30:00 -0800"
     },
     {
-      "topic": "nba standings",
+      "topic": "msc poesia",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Mon, 2 Nov 2026 22:10:00 -0800"
-    },
-    {
-      "topic": "jamison battle",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Mon, 2 Nov 2026 22:10:00 -0800"
-    },
-    {
-      "topic": "collin murray-boyles",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Mon, 2 Nov 2026 22:10:00 -0800"
-    },
-    {
-      "topic": "stephen curry",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Mon, 2 Nov 2026 22:00:00 -0800"
-    },
-    {
-      "topic": "austin reaves",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Mon, 2 Nov 2026 21:50:00 -0800"
-    },
-    {
-      "topic": "golden state warriors",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Mon, 2 Nov 2026 21:50:00 -0800"
-    },
-    {
-      "topic": "miles bridges",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Mon, 2 Nov 2026 21:50:00 -0800"
-    },
-    {
-      "topic": "cathay pacific",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Mon, 2 Nov 2026 21:50:00 -0800"
+      "published": "Mon, 2 Nov 2026 22:30:00 -0800"
     }
   ]
 }
