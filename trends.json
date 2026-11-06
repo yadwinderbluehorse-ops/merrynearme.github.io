@@ -1,7 +1,47 @@
 {
   "region": "CA",
-  "updated_at": "2026-11-06T07:22:35.103787+00:00",
+  "updated_at": "2026-11-06T10:08:50.568369+00:00",
   "topics": [
+    {
+      "topic": "canada foreign buyers ban",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Fri, 6 Nov 2026 01:40:00 -0800"
+    },
+    {
+      "topic": "lebron james",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Fri, 6 Nov 2026 01:30:00 -0800"
+    },
+    {
+      "topic": "gta 6 release date",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Fri, 6 Nov 2026 00:40:00 -0800"
+    },
+    {
+      "topic": "jodie sweetin",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Fri, 6 Nov 2026 00:20:00 -0800"
+    },
+    {
+      "topic": "gas prices",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Fri, 6 Nov 2026 00:20:00 -0800"
+    },
+    {
+      "topic": "infraction",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Fri, 6 Nov 2026 00:00:00 -0800"
+    },
+    {
+      "topic": "alberta",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Thu, 5 Nov 2026 23:40:00 -0800"
+    },
+    {
+      "topic": "disney+",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Thu, 5 Nov 2026 23:30:00 -0800"
+    },
     {
       "topic": "georges niang",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
@@ -11,46 +51,6 @@
       "topic": "rise and fall season 2 winner",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
       "published": "Thu, 5 Nov 2026 22:10:00 -0800"
-    },
-    {
-      "topic": "katseye",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Thu, 5 Nov 2026 22:00:00 -0800"
-    },
-    {
-      "topic": "adam driver",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Thu, 5 Nov 2026 21:50:00 -0800"
-    },
-    {
-      "topic": "draymond green",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Thu, 5 Nov 2026 21:30:00 -0800"
-    },
-    {
-      "topic": "edmonton oilers goalies",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Thu, 5 Nov 2026 21:20:00 -0800"
-    },
-    {
-      "topic": "giannis antetokounmpo",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Thu, 5 Nov 2026 21:10:00 -0800"
-    },
-    {
-      "topic": "내일 날씨",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Thu, 5 Nov 2026 21:10:00 -0800"
-    },
-    {
-      "topic": "ross lynch",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Thu, 5 Nov 2026 21:00:00 -0800"
-    },
-    {
-      "topic": "anthony constantino",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Thu, 5 Nov 2026 21:00:00 -0800"
     }
   ]
 }
