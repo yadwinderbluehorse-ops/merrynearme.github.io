@@ -1,7 +1,37 @@
 {
   "region": "CA",
-  "updated_at": "2026-11-08T07:06:16.770031+00:00",
+  "updated_at": "2026-11-08T09:52:33.081229+00:00",
   "topics": [
+    {
+      "topic": "arjun rajput",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Sun, 8 Nov 2026 01:40:00 -0800"
+    },
+    {
+      "topic": "incendie",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Sun, 8 Nov 2026 01:10:00 -0800"
+    },
+    {
+      "topic": "gas prices",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Sun, 8 Nov 2026 01:00:00 -0800"
+    },
+    {
+      "topic": "gulf of oman",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Sun, 8 Nov 2026 00:20:00 -0800"
+    },
+    {
+      "topic": "nyt connections hints",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Sun, 8 Nov 2026 00:20:00 -0800"
+    },
+    {
+      "topic": "gold skulltulas",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Sat, 7 Nov 2026 23:30:00 -0800"
+    },
     {
       "topic": "nhl stats",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
@@ -21,36 +51,6 @@
       "topic": "tom holland",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
       "published": "Sat, 7 Nov 2026 22:00:00 -0800"
-    },
-    {
-      "topic": "nugent hopkins",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Sat, 7 Nov 2026 21:20:00 -0800"
-    },
-    {
-      "topic": "snl",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Sat, 7 Nov 2026 21:20:00 -0800"
-    },
-    {
-      "topic": "sherrod brown",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Sat, 7 Nov 2026 21:00:00 -0800"
-    },
-    {
-      "topic": "amazon early black friday sales",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Sat, 7 Nov 2026 20:50:00 -0800"
-    },
-    {
-      "topic": "election results mississippi senate race",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Sat, 7 Nov 2026 20:40:00 -0800"
-    },
-    {
-      "topic": "georges niang",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Sat, 7 Nov 2026 20:40:00 -0800"
     }
   ]
 }
