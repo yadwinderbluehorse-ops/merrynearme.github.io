@@ -1,7 +1,47 @@
 {
   "region": "CA",
-  "updated_at": "2026-11-09T07:33:22.866989+00:00",
+  "updated_at": "2026-11-09T10:05:22.103093+00:00",
   "topics": [
+    {
+      "topic": "news today",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Mon, 9 Nov 2026 01:30:00 -0800"
+    },
+    {
+      "topic": "bitcoin",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Mon, 9 Nov 2026 01:20:00 -0800"
+    },
+    {
+      "topic": "movie times",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Mon, 9 Nov 2026 00:50:00 -0800"
+    },
+    {
+      "topic": "weather this weekend",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Mon, 9 Nov 2026 00:20:00 -0800"
+    },
+    {
+      "topic": "nba scores today",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Mon, 9 Nov 2026 00:20:00 -0800"
+    },
+    {
+      "topic": "stock market news",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Mon, 9 Nov 2026 00:10:00 -0800"
+    },
+    {
+      "topic": "election results mississippi senate race",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Mon, 9 Nov 2026 00:00:00 -0800"
+    },
+    {
+      "topic": "winter storm",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Sun, 8 Nov 2026 23:50:00 -0800"
+    },
     {
       "topic": "stock market crash",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
@@ -11,46 +51,6 @@
       "topic": "내일 날씨",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
       "published": "Sun, 8 Nov 2026 21:30:00 -0800"
-    },
-    {
-      "topic": "tayyab arif",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Sun, 8 Nov 2026 21:00:00 -0800"
-    },
-    {
-      "topic": "lotto max $50 million winner",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Sun, 8 Nov 2026 20:50:00 -0800"
-    },
-    {
-      "topic": "trump midterm elections",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Sun, 8 Nov 2026 20:40:00 -0800"
-    },
-    {
-      "topic": "darius acuff jr.",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Sun, 8 Nov 2026 20:30:00 -0800"
-    },
-    {
-      "topic": "luther burden",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Sun, 8 Nov 2026 20:30:00 -0800"
-    },
-    {
-      "topic": "martin st-louis",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Sun, 8 Nov 2026 19:40:00 -0800"
-    },
-    {
-      "topic": "d'andre swift",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Sun, 8 Nov 2026 19:40:00 -0800"
-    },
-    {
-      "topic": "paul george",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Sun, 8 Nov 2026 19:20:00 -0800"
     }
   ]
 }
