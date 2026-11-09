@@ -1,11 +1,41 @@
 {
   "region": "CA",
-  "updated_at": "2026-11-09T04:00:25.980683+00:00",
+  "updated_at": "2026-11-09T07:33:22.866989+00:00",
   "topics": [
     {
-      "topic": "devin bush",
+      "topic": "stock market crash",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Sun, 8 Nov 2026 19:40:00 -0800"
+      "published": "Sun, 8 Nov 2026 21:30:00 -0800"
+    },
+    {
+      "topic": "내일 날씨",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Sun, 8 Nov 2026 21:30:00 -0800"
+    },
+    {
+      "topic": "tayyab arif",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Sun, 8 Nov 2026 21:00:00 -0800"
+    },
+    {
+      "topic": "lotto max $50 million winner",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Sun, 8 Nov 2026 20:50:00 -0800"
+    },
+    {
+      "topic": "trump midterm elections",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Sun, 8 Nov 2026 20:40:00 -0800"
+    },
+    {
+      "topic": "darius acuff jr.",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Sun, 8 Nov 2026 20:30:00 -0800"
+    },
+    {
+      "topic": "luther burden",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Sun, 8 Nov 2026 20:30:00 -0800"
     },
     {
       "topic": "martin st-louis",
@@ -13,44 +43,14 @@
       "published": "Sun, 8 Nov 2026 19:40:00 -0800"
     },
     {
-      "topic": "priyanka chopra",
+      "topic": "d'andre swift",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Sun, 8 Nov 2026 19:40:00 -0800"
+    },
+    {
+      "topic": "paul george",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
       "published": "Sun, 8 Nov 2026 19:20:00 -0800"
-    },
-    {
-      "topic": "connor hellebuyck",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Sun, 8 Nov 2026 19:10:00 -0800"
-    },
-    {
-      "topic": "cathie wood",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Sun, 8 Nov 2026 19:10:00 -0800"
-    },
-    {
-      "topic": "mentana",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Sun, 8 Nov 2026 19:00:00 -0800"
-    },
-    {
-      "topic": "saint lawrence river",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Sun, 8 Nov 2026 18:50:00 -0800"
-    },
-    {
-      "topic": "northern canada temperature anomaly november",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Sun, 8 Nov 2026 18:40:00 -0800"
-    },
-    {
-      "topic": "adrien broner",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Sun, 8 Nov 2026 18:40:00 -0800"
-    },
-    {
-      "topic": "sean payton",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Sun, 8 Nov 2026 18:40:00 -0800"
     }
   ]
 }
