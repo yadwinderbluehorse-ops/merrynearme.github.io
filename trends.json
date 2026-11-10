@@ -1,56 +1,56 @@
 {
   "region": "CA",
-  "updated_at": "2026-11-10T07:15:32.800122+00:00",
+  "updated_at": "2026-11-10T09:59:32.393200+00:00",
   "topics": [
+    {
+      "topic": "stock market news",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Tue, 10 Nov 2026 01:50:00 -0800"
+    },
+    {
+      "topic": "bitcoin",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Tue, 10 Nov 2026 01:20:00 -0800"
+    },
+    {
+      "topic": "toronto blue jays",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Tue, 10 Nov 2026 01:00:00 -0800"
+    },
+    {
+      "topic": "news today",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Tue, 10 Nov 2026 00:50:00 -0800"
+    },
+    {
+      "topic": "climate news today",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Tue, 10 Nov 2026 00:40:00 -0800"
+    },
+    {
+      "topic": "football scores",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Tue, 10 Nov 2026 00:40:00 -0800"
+    },
+    {
+      "topic": "taylor swift",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Tue, 10 Nov 2026 00:30:00 -0800"
+    },
+    {
+      "topic": "canada china joint financial statement",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Tue, 10 Nov 2026 00:20:00 -0800"
+    },
+    {
+      "topic": "système de paiement",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Mon, 9 Nov 2026 23:20:00 -0800"
+    },
     {
       "topic": "cra",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
       "published": "Mon, 9 Nov 2026 22:50:00 -0800"
-    },
-    {
-      "topic": "new zealand vs india",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Mon, 9 Nov 2026 22:40:00 -0800"
-    },
-    {
-      "topic": "macklin celebrini",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Mon, 9 Nov 2026 22:10:00 -0800"
-    },
-    {
-      "topic": "air france",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Mon, 9 Nov 2026 21:50:00 -0800"
-    },
-    {
-      "topic": "brandon williams",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Mon, 9 Nov 2026 21:50:00 -0800"
-    },
-    {
-      "topic": "wainwright",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Mon, 9 Nov 2026 21:40:00 -0800"
-    },
-    {
-      "topic": "weather forecast snow storm",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Mon, 9 Nov 2026 21:40:00 -0800"
-    },
-    {
-      "topic": "dejounte murray",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Mon, 9 Nov 2026 21:30:00 -0800"
-    },
-    {
-      "topic": "matvei michkov",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Mon, 9 Nov 2026 21:20:00 -0800"
-    },
-    {
-      "topic": "daisy ridley",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Mon, 9 Nov 2026 21:20:00 -0800"
     }
   ]
 }
