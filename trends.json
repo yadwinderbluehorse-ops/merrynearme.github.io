@@ -1,7 +1,42 @@
 {
   "region": "CA",
-  "updated_at": "2026-11-11T07:21:35.323965+00:00",
+  "updated_at": "2026-11-11T10:05:05.582366+00:00",
   "topics": [
+    {
+      "topic": "pakistan vs sri lanka",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Wed, 11 Nov 2026 01:50:00 -0800"
+    },
+    {
+      "topic": "ours",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Wed, 11 Nov 2026 01:30:00 -0800"
+    },
+    {
+      "topic": "yellow warning - rainfall",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Wed, 11 Nov 2026 00:50:00 -0800"
+    },
+    {
+      "topic": "united states department of justice",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Wed, 11 Nov 2026 00:30:00 -0800"
+    },
+    {
+      "topic": "henry cavill",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Wed, 11 Nov 2026 00:20:00 -0800"
+    },
+    {
+      "topic": "car insurance",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Wed, 11 Nov 2026 00:00:00 -0800"
+    },
+    {
+      "topic": "ps5",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Tue, 10 Nov 2026 23:30:00 -0800"
+    },
     {
       "topic": "coachella 2027",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
@@ -16,41 +51,6 @@
       "topic": "timothy olyphant",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
       "published": "Tue, 10 Nov 2026 22:10:00 -0800"
-    },
-    {
-      "topic": "andrew scott",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Tue, 10 Nov 2026 22:00:00 -0800"
-    },
-    {
-      "topic": "veterans day 2026",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Tue, 10 Nov 2026 21:20:00 -0800"
-    },
-    {
-      "topic": "whl",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Tue, 10 Nov 2026 21:10:00 -0800"
-    },
-    {
-      "topic": "dustin hoffman",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Tue, 10 Nov 2026 21:00:00 -0800"
-    },
-    {
-      "topic": "jessica alba",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Tue, 10 Nov 2026 20:50:00 -0800"
-    },
-    {
-      "topic": "내일 날씨",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Tue, 10 Nov 2026 20:50:00 -0800"
-    },
-    {
-      "topic": "darryn peterson",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Tue, 10 Nov 2026 20:30:00 -0800"
     }
   ]
 }
