@@ -1,56 +1,56 @@
 {
   "region": "CA",
-  "updated_at": "2026-11-13T18:59:06.758294+00:00",
+  "updated_at": "2026-11-13T21:52:47.250257+00:00",
   "topics": [
     {
-      "topic": "tony richards",
+      "topic": "news",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Fri, 13 Nov 2026 10:40:00 -0800"
+      "published": "Fri, 13 Nov 2026 13:40:00 -0800"
     },
     {
-      "topic": "stelco",
+      "topic": "us news",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Fri, 13 Nov 2026 10:40:00 -0800"
+      "published": "Fri, 13 Nov 2026 13:40:00 -0800"
     },
     {
-      "topic": "egypt vs malawi",
+      "topic": "starship flight 15",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Fri, 13 Nov 2026 10:20:00 -0800"
+      "published": "Fri, 13 Nov 2026 13:40:00 -0800"
     },
     {
-      "topic": "gta 6 online",
+      "topic": "us flights cancelled",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Fri, 13 Nov 2026 10:20:00 -0800"
+      "published": "Fri, 13 Nov 2026 13:30:00 -0800"
     },
     {
-      "topic": "richard neil",
+      "topic": "us airspace",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Fri, 13 Nov 2026 10:10:00 -0800"
+      "published": "Fri, 13 Nov 2026 13:30:00 -0800"
     },
     {
-      "topic": "lpga",
+      "topic": "yvr",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Fri, 13 Nov 2026 10:10:00 -0800"
+      "published": "Fri, 13 Nov 2026 13:30:00 -0800"
     },
     {
-      "topic": "jake bauers",
+      "topic": "pearson airport",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Fri, 13 Nov 2026 09:50:00 -0800"
+      "published": "Fri, 13 Nov 2026 13:20:00 -0800"
     },
     {
-      "topic": "lpga leaderboard",
+      "topic": "driving",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Fri, 13 Nov 2026 09:30:00 -0800"
+      "published": "Fri, 13 Nov 2026 13:20:00 -0800"
     },
     {
-      "topic": "iran bahrain",
+      "topic": "bière",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Fri, 13 Nov 2026 09:20:00 -0800"
+      "published": "Fri, 13 Nov 2026 13:10:00 -0800"
     },
     {
-      "topic": "rene haas",
+      "topic": "faa",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Fri, 13 Nov 2026 09:20:00 -0800"
+      "published": "Fri, 13 Nov 2026 13:00:00 -0800"
     }
   ]
 }
