@@ -1,11 +1,46 @@
 {
   "region": "CA",
-  "updated_at": "2026-11-13T07:23:21.068952+00:00",
+  "updated_at": "2026-11-13T10:06:05.651497+00:00",
   "topics": [
     {
-      "topic": "matt henry",
+      "topic": "al jazeera live",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Thu, 12 Nov 2026 22:30:00 -0800"
+      "published": "Fri, 13 Nov 2026 01:40:00 -0800"
+    },
+    {
+      "topic": "weather this weekend",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Fri, 13 Nov 2026 01:40:00 -0800"
+    },
+    {
+      "topic": "quinte news",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Fri, 13 Nov 2026 01:20:00 -0800"
+    },
+    {
+      "topic": "nintendo black friday sale",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Fri, 13 Nov 2026 00:50:00 -0800"
+    },
+    {
+      "topic": "new zealand vs india",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Fri, 13 Nov 2026 00:40:00 -0800"
+    },
+    {
+      "topic": "cricket",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Fri, 13 Nov 2026 00:20:00 -0800"
+    },
+    {
+      "topic": "angelina jolie",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Fri, 13 Nov 2026 00:10:00 -0800"
+    },
+    {
+      "topic": "mackinnon makar injury",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Thu, 12 Nov 2026 23:00:00 -0800"
     },
     {
       "topic": "icc",
@@ -16,41 +51,6 @@
       "topic": "kelly preston",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
       "published": "Thu, 12 Nov 2026 22:00:00 -0800"
-    },
-    {
-      "topic": "afg vs zim",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Thu, 12 Nov 2026 21:50:00 -0800"
-    },
-    {
-      "topic": "bono",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Thu, 12 Nov 2026 21:30:00 -0800"
-    },
-    {
-      "topic": "u2",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Thu, 12 Nov 2026 21:00:00 -0800"
-    },
-    {
-      "topic": "michael kors",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Thu, 12 Nov 2026 20:40:00 -0800"
-    },
-    {
-      "topic": "iran news live",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Thu, 12 Nov 2026 20:40:00 -0800"
-    },
-    {
-      "topic": "jameis winston",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Thu, 12 Nov 2026 20:30:00 -0800"
-    },
-    {
-      "topic": "surrey",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Thu, 12 Nov 2026 20:10:00 -0800"
     }
   ]
 }
