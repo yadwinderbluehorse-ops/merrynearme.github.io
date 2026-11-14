@@ -1,7 +1,17 @@
 {
   "region": "CA",
-  "updated_at": "2026-11-14T07:07:48.282563+00:00",
+  "updated_at": "2026-11-14T09:52:40.535857+00:00",
   "topics": [
+    {
+      "topic": "tva nouvelle",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Sat, 14 Nov 2026 00:40:00 -0800"
+    },
+    {
+      "topic": "microsoft playback",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Fri, 13 Nov 2026 23:50:00 -0800"
+    },
     {
       "topic": "peoria",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
@@ -23,11 +33,6 @@
       "published": "Fri, 13 Nov 2026 21:20:00 -0800"
     },
     {
-      "topic": "microsoft xbox playback",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Fri, 13 Nov 2026 21:10:00 -0800"
-    },
-    {
       "topic": "jamie lee curtis",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
       "published": "Fri, 13 Nov 2026 21:10:00 -0800"
@@ -46,11 +51,6 @@
       "topic": "yellowjackets",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
       "published": "Fri, 13 Nov 2026 20:30:00 -0800"
-    },
-    {
-      "topic": "ontario",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Fri, 13 Nov 2026 20:20:00 -0800"
     }
   ]
 }
