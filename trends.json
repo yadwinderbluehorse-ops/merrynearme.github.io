@@ -1,7 +1,12 @@
 {
   "region": "CA",
-  "updated_at": "2026-11-15T07:10:04.112097+00:00",
+  "updated_at": "2026-11-15T09:52:59.019130+00:00",
   "topics": [
+    {
+      "topic": "sa vs ban",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Sat, 14 Nov 2026 23:40:00 -0800"
+    },
     {
       "topic": "spacex starship launch",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
@@ -13,9 +18,19 @@
       "published": "Sat, 14 Nov 2026 22:50:00 -0800"
     },
     {
+      "topic": "simon holmström",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Sat, 14 Nov 2026 22:20:00 -0800"
+    },
+    {
       "topic": "cher",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
       "published": "Sat, 14 Nov 2026 22:00:00 -0800"
+    },
+    {
+      "topic": "brittany renner",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Sat, 14 Nov 2026 21:50:00 -0800"
     },
     {
       "topic": "bruce buffer",
@@ -28,7 +43,7 @@
       "published": "Sat, 14 Nov 2026 21:20:00 -0800"
     },
     {
-      "topic": "anne hathaway",
+      "topic": "tom aspinall",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
       "published": "Sat, 14 Nov 2026 21:10:00 -0800"
     },
@@ -36,21 +51,6 @@
       "topic": "ramit sethi",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
       "published": "Sat, 14 Nov 2026 21:10:00 -0800"
-    },
-    {
-      "topic": "jon jones",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Sat, 14 Nov 2026 21:10:00 -0800"
-    },
-    {
-      "topic": "amanda seyfried",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Sat, 14 Nov 2026 21:10:00 -0800"
-    },
-    {
-      "topic": "utah vs arizona",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Sat, 14 Nov 2026 21:00:00 -0800"
     }
   ]
 }
