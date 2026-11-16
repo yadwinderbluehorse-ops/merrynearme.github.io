@@ -1,7 +1,32 @@
 {
   "region": "CA",
-  "updated_at": "2026-11-16T08:52:52.180450+00:00",
+  "updated_at": "2026-11-16T10:43:57.042513+00:00",
   "topics": [
+    {
+      "topic": "journaliste",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Mon, 16 Nov 2026 02:30:00 -0800"
+    },
+    {
+      "topic": "rockstar games gta vi",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Mon, 16 Nov 2026 02:20:00 -0800"
+    },
+    {
+      "topic": "le journal de montréal",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Mon, 16 Nov 2026 02:20:00 -0800"
+    },
+    {
+      "topic": "cbs news",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Mon, 16 Nov 2026 02:20:00 -0800"
+    },
+    {
+      "topic": "iran news al jazeera",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Mon, 16 Nov 2026 02:10:00 -0800"
+    },
     {
       "topic": "bangladesh vs south africa",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
@@ -23,32 +48,7 @@
       "published": "Sun, 15 Nov 2026 21:00:00 -0800"
     },
     {
-      "topic": "el niño",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Sun, 15 Nov 2026 20:50:00 -0800"
-    },
-    {
-      "topic": "katy perry new short haircut",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Sun, 15 Nov 2026 20:50:00 -0800"
-    },
-    {
       "topic": "mark carney",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Sun, 15 Nov 2026 20:40:00 -0800"
-    },
-    {
-      "topic": "gta vi",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Sun, 15 Nov 2026 20:40:00 -0800"
-    },
-    {
-      "topic": "darius acuff jr.",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Sun, 15 Nov 2026 20:40:00 -0800"
-    },
-    {
-      "topic": "brock boeser",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
       "published": "Sun, 15 Nov 2026 20:40:00 -0800"
     }
