@@ -1,7 +1,47 @@
 {
   "region": "CA",
-  "updated_at": "2026-11-17T07:26:41.241341+00:00",
+  "updated_at": "2026-11-17T10:14:28.943078+00:00",
   "topics": [
+    {
+      "topic": "saskatchewan snow",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Tue, 17 Nov 2026 02:00:00 -0800"
+    },
+    {
+      "topic": "nhl score",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Tue, 17 Nov 2026 02:00:00 -0800"
+    },
+    {
+      "topic": "aircraft carrier",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Tue, 17 Nov 2026 02:00:00 -0800"
+    },
+    {
+      "topic": "singapour – brésil",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Tue, 17 Nov 2026 01:50:00 -0800"
+    },
+    {
+      "topic": "gta 6 release date",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Tue, 17 Nov 2026 01:50:00 -0800"
+    },
+    {
+      "topic": "singapore vs brazil",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Tue, 17 Nov 2026 01:30:00 -0800"
+    },
+    {
+      "topic": "bangladesh vs south africa",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Tue, 17 Nov 2026 00:50:00 -0800"
+    },
+    {
+      "topic": "air canada new international routes",
+      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
+      "published": "Mon, 16 Nov 2026 22:40:00 -0800"
+    },
     {
       "topic": "billie jean king",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
@@ -11,46 +51,6 @@
       "topic": "former ambassadors canada us trade",
       "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
       "published": "Mon, 16 Nov 2026 21:30:00 -0800"
-    },
-    {
-      "topic": "gta 6 price",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Mon, 16 Nov 2026 21:20:00 -0800"
-    },
-    {
-      "topic": "filip chytil",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Mon, 16 Nov 2026 20:50:00 -0800"
-    },
-    {
-      "topic": "gta 6 reviews",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Mon, 16 Nov 2026 20:50:00 -0800"
-    },
-    {
-      "topic": "sl vs pak",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Mon, 16 Nov 2026 20:40:00 -0800"
-    },
-    {
-      "topic": "nasa curiosity rover",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Mon, 16 Nov 2026 20:40:00 -0800"
-    },
-    {
-      "topic": "mike mcdaniel",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Mon, 16 Nov 2026 20:30:00 -0800"
-    },
-    {
-      "topic": "florence pugh",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Mon, 16 Nov 2026 20:20:00 -0800"
-    },
-    {
-      "topic": "gofundme",
-      "google_trends_url": "https://trends.google.com/trending/rss?geo=CA",
-      "published": "Mon, 16 Nov 2026 20:20:00 -0800"
     }
   ]
 }
